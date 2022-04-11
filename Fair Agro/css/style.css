@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap');
+
+.inicio{
+    padding-top: 5vh;
+}
+
+.logofair{
+    height: auto;
+    margin-left: 40.5%;
+}
+
+.titulo h1{
+    font-size: 3em;
+    margin: 0px;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    padding-top: 5vh;
+    font-family: 'Overpass', sans-serif;
+}
+
+.textotitulo h2{
+    font-size: 2em;
+    margin: 0px;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    padding-top: 5vh;
+    font-family: 'Overpass', sans-serif;
+}
+
+.textosecundario{
+    font-size: 1.2em;
+    margin: 0px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    padding-top: 5vh;
+    font-family: 'Overpass', sans-serif;
+}
+
+.manifesto p{
+    font-size: 1.5em;
+    margin: 0px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    padding-top: 5vh;
+    font-family: 'Overpass', sans-serif;
+}
+
+.manifesto h1{
+    margin: 0px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    padding-top: 3vh;
+    font-family: 'Overpass', sans-serif;
+}
+
+.sobre p{
+    font-size: 1.2em;
+    margin: 0px;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+.parceiros{
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 5vh;
+    font-family: 'Overpass', sans-serif;
+}
+
+.logoSuperior{
+    width: 100%;
+    clear: both;
+}
+
+.logoInferior{
+    width: 100%;
+    clear: both;
+    padding-top: 7vh;
+}
+
+.tamanhologoS{
+    margin-left: 7%;
+    margin-right: 6%;
+    float: left;
+    max-width: 20%;
+    height: auto;
+}
+
+.tamanhologoI{
+    float: left;
+    max-width: 20%;
+    height: auto;
+}
+
+.sobre{
+    clear: left;
+    padding-bottom: 5vh;
+    padding-top: 7vh;
+}
