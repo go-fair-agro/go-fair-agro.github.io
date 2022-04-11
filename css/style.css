@@ -104,3 +104,267 @@
     padding-bottom: 5vh;
     padding-top: 7vh;
 }
+
+.ufrj{
+    margin-left: 10%;
+    margin-top: -15vh;
+    max-width: 20%;
+    height: auto;
+    float: left;
+}
+
+@media only screen and (min-width: 200px) and (max-width:250px){
+   
+    .logofair{
+        height: auto;
+        margin-left: 0%;
+    }
+
+    .ufrj{
+        margin-left: 10%;
+        margin-top: -5vh;
+        max-width: 20%;
+        height: auto;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 251px) and (max-width:300px){
+   
+    .logofair{
+        height: auto;
+        margin-left: 0%;
+    }
+
+    .ufrj{
+        margin-left: 10%;
+        margin-top: -5vh;
+        max-width: 20%;
+        height: auto;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 301px) and (max-width:350px){
+   
+    .logofair{
+        height: auto;
+        margin-left: 9.5%;
+    }
+
+    .ufrj{
+        margin-left: 10%;
+        margin-top: -5vh;
+        max-width: 20%;
+        height: auto;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 351px) and (max-width:400px){
+   
+    .logofair{
+        height: auto;
+        margin-left: 17%;
+    }
+
+    .ufrj{
+        margin-left: 10%;
+        margin-top: -6vh;
+        max-width: 20%;
+        height: auto;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width:450px){
+   
+    .logofair{
+        height: auto;
+        margin-left: 20%;
+    }
+
+    .ufrj{
+        margin-left: 10%;
+        margin-top: -6vh;
+        max-width: 20%;
+        height: auto;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 451px) and (max-width:500px){
+   
+    .logofair{
+        height: auto;
+        margin-left: 22%;
+    }
+
+    .ufrj{
+        margin-left: 10%;
+        margin-top: -6vh;
+        max-width: 20%;
+        height: auto;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width:550px){
+   
+    .logofair{
+        height: auto;
+        margin-left: 25%;
+    }
+
+    .ufrj{
+        margin-left: 10%;
+        margin-top: -7vh;
+        max-width: 20%;
+        height: auto;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 551px) and (max-width:600px){
+   
+    .logofair{
+        height: auto;
+        margin-left: 28%;
+    }
+
+    .ufrj{
+        margin-left: 10%;
+        margin-top: -8vh;
+        max-width: 20%;
+        height: auto;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width:650px){
+   
+    .logofair{
+        height: auto;
+        margin-left: 30%;
+    }
+
+    .ufrj{
+        margin-left: 10%;
+        margin-top: -8vh;
+        max-width: 20%;
+        height: auto;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 651px) and (max-width:700px){
+   
+    .logofair{
+        height: auto;
+        margin-left: 33%;
+    }
+
+    .ufrj{
+        margin-left: 10%;
+        margin-top: -9vh;
+        max-width: 20%;
+        height: auto;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width:750px){
+   
+    .logofair{
+        height: auto;
+        margin-left: 32%;
+    }
+
+    .ufrj{
+        margin-left: 10%;
+        margin-top: -9vh;
+        max-width: 20%;
+        height: auto;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 751px) and (max-width:800px){
+   
+    .logofair{
+        height: auto;
+        margin-left: 35%;
+    }
+
+    .ufrj{
+        margin-left: 10%;
+        margin-top: -10vh;
+        max-width: 20%;
+        height: auto;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width:850px){
+   
+    .logofair{
+        height: auto;
+        margin-left: 35%;
+    }
+
+    .ufrj{
+        margin-left: 10%;
+        margin-top: -10vh;
+        max-width: 20%;
+        height: auto;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 851px) and (max-width:900px){
+   
+    .logofair{
+        height: auto;
+        margin-left: 36%;
+    }
+
+    .ufrj{
+        margin-left: 10%;
+        margin-top: -11vh;
+        max-width: 20%;
+        height: auto;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width:950px){
+   
+    .logofair{
+        height: auto;
+        margin-left: 37%;
+    }
+
+    .ufrj{
+        margin-left: 10%;
+        margin-top: -11vh;
+        max-width: 20%;
+        height: auto;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 951px) and (max-width:1000px){
+   
+    .logofair{
+        height: auto;
+        margin-left: 38%;
+    }
+
+    .ufrj{
+        margin-left: 10%;
+        margin-top: -12vh;
+        max-width: 20%;
+        height: auto;
+        float: left;
+    }
+}
