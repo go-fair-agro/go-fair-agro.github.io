@@ -1,0 +1,38 @@
+#videoContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 950px;
+    background-color: #2D6D2C;
+
+}
+
+.backgroundVideo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    width: 80%;
+    padding: 50px 5px;
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.textVideo{
+    color: white;
+    padding: 2%;
+}
+
+.textTitle{
+    width: fit-content;
+    border-bottom: black 10px solid;
+}
+
+.textVideo h1{
+    font-size: 50px;
+}
+
+#textTitleVideo{
+    width: fit-content;
+    border-bottom: white 10px solid;
+}
