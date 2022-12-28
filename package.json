@@ -2,7 +2,7 @@
   "name": "go_fair_agro",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gpbezerra.github.io/go_fair_agro",
+  "homepage": "https://go-fair-agro.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

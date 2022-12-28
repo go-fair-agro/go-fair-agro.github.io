@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/go_fair_agro/static/css/main.390f3a54.css",
+    "main.js": "/go_fair_agro/static/js/main.60759ea0.js",
+    "static/media/goFairAgroHeader.jpg": "/go_fair_agro/static/media/goFairAgroHeader.534345b6648293d77c1d.jpg",
+    "static/media/logoUnipampa.jpg": "/go_fair_agro/static/media/logoUnipampa.cf0a8b184effda343b11.jpg",
+    "static/media/logoUfrrj.png": "/go_fair_agro/static/media/logoUfrrj.a3faf1a536b116f17ef2.png",
+    "static/media/logoUfrj.png": "/go_fair_agro/static/media/logoUfrj.5609b7e55ff7f0b58817.png",
+    "static/media/post1.png": "/go_fair_agro/static/media/post1.ddd092de3759949a8ba2.png",
+    "static/media/logoEmbrepa.png": "/go_fair_agro/static/media/logoEmbrepa.f3ae1e723cd5d5a6e7ca.png",
+    "static/media/logoUsp.png": "/go_fair_agro/static/media/logoUsp.4c40323e5f7b14b0281b.png",
+    "static/media/manifesto.pdf": "/go_fair_agro/static/media/manifesto.09edc7a0f111d7c85a7b.pdf",
+    "static/media/logo.png": "/go_fair_agro/static/media/logo.73cb2f01b7c2129d5dc2.png",
+    "static/media/go-fair-brasil-agro-logo.svg": "/go_fair_agro/static/media/go-fair-brasil-agro-logo.ffea0d840d5645472cf420ae173f161e.svg",
+    "index.html": "/go_fair_agro/index.html",
+    "main.390f3a54.css.map": "/go_fair_agro/static/css/main.390f3a54.css.map",
+    "main.60759ea0.js.map": "/go_fair_agro/static/js/main.60759ea0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.390f3a54.css",
+    "static/js/main.60759ea0.js"
+  ]
+}
