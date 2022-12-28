@@ -1,0 +1,31 @@
+.postContainer {
+    padding: 2%;
+}
+
+.postContainer h1{
+    color: black;
+    font-family: 'Archivo Black';
+    font-size: 400%;
+    margin-bottom: 0;
+}
+
+.postContainer p{
+    font-size: 150%;
+    font-family: 'Archivo';
+    margin-top: 40px; 
+}
+
+.postCardDeck{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.postCard{
+    display: flex;
+    width: 40%;
+    padding: 2%;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+

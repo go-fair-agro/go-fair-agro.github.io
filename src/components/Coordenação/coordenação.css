@@ -1,0 +1,15 @@
+.coordenaçãoContainer{
+    color: black;
+}
+
+.coodernaçãoParceiros{
+    display: flex;
+    justify-content: space-between;
+}
+
+.coodernaçãoParceiros a{
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
