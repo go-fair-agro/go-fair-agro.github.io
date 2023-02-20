@@ -1,6 +1,6 @@
 import React from "react";
 import  "./Menu.css";
-import logo from "../../images/go-fair-brasil-agro-logo.svg"
+import logo from "../../images/go-fair-brasil.png"
 
 export const Menu = () => {
     return (
@@ -15,9 +15,6 @@ export const Menu = () => {
             <div className="linkGroup">
                 <a  href="#publicações">
                     Publicações
-                </a>
-                <a  href="#publicações">
-                    Participantes
                 </a>
                 <a  href="#cicloDeOficinas">
                     Ciclo de Oficinas
