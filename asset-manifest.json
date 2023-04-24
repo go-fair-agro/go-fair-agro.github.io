@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9b04c7ec.css",
-    "main.js": "/static/js/main.3dbd86e7.js",
+    "main.js": "/static/js/main.f4037784.js",
     "static/media/goFairAgroHeader.jpg": "/static/media/goFairAgroHeader.534345b6648293d77c1d.jpg",
     "static/media/logoUnipampa.jpg": "/static/media/logoUnipampa.cf0a8b184effda343b11.jpg",
     "static/media/logoUfrrj.png": "/static/media/logoUfrrj.a3faf1a536b116f17ef2.png",
@@ -15,10 +15,10 @@
     "static/media/go-fair-brasil-agro-logo.svg": "/static/media/go-fair-brasil-agro-logo.ffea0d840d5645472cf420ae173f161e.svg",
     "index.html": "/index.html",
     "main.9b04c7ec.css.map": "/static/css/main.9b04c7ec.css.map",
-    "main.3dbd86e7.js.map": "/static/js/main.3dbd86e7.js.map"
+    "main.f4037784.js.map": "/static/js/main.f4037784.js.map"
   },
   "entrypoints": [
     "static/css/main.9b04c7ec.css",
-    "static/js/main.3dbd86e7.js"
+    "static/js/main.f4037784.js"
   ]
 }
