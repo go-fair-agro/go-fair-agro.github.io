@@ -19,7 +19,7 @@ export const Video = () => {
                 <div id="textTitleVideo">
                     <h1>Lançamento</h1>
                     </div>
-                <p>Aconteceu no dia 12 de abril, às 9h, o evento on-line de lançamento da Rede GO-FAIR Agro Brasil, iniciativa para promover a governança e a gestão de dados de pesquisa em ciências agrárias. A rede faz parte de um movimento internacional e visa propor estratégias e mobilizar parcerias para fomentar o compartilhamento e reúso dos dados produzidos no âmbito dos sistemas produtivos agropecuários e também aqueles oriundos de pesquisas em ciências agrárias, apoiados nos princípios FAIR (encontráveis, acessíveis, interoperáveis e reusáveis, na tradução do inglês). </p>
+                <p>Aconteceu no dia 12 de abril de 2022, às 9h, o evento on-line de lançamento da Rede GO-FAIR Agro Brasil, iniciativa para promover a governança e a gestão de dados de pesquisa em ciências agrárias. A rede faz parte de um movimento internacional e visa propor estratégias e mobilizar parcerias para fomentar o compartilhamento e reúso dos dados produzidos no âmbito dos sistemas produtivos agropecuários e também aqueles oriundos de pesquisas em ciências agrárias, apoiados nos princípios FAIR (encontráveis, acessíveis, interoperáveis e reusáveis, na tradução do inglês). </p>
             </div>
         </div>
     )

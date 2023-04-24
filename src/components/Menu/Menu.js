@@ -19,7 +19,7 @@ export const Menu = () => {
                 <a  href="#cicloDeOficinas">
                     Ciclo de Oficinas
                 </a>
-                <a href="#Contato">
+                <a href="#rede">
                     Contato
                 </a>
             </div>

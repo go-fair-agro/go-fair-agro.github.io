@@ -18,7 +18,7 @@ export const Text = () => {
                 <div className="textTitle">
                     <h1>Manifesto</h1>
                 </div>
-                <p>O Escritório de Apoio de Coordenação GO-FAIR Brasil é um dos escritórios regionais de apoio e coordenação da rede GO-FAIR e tem a responsabilidade de difundir, apoiar e coordenar as atividades relacionadas à adoção da estratégia de implementação dos princípios FAIR definida pela iniciativa GO-FAIR em todo o território brasileiro.</p>
+                <p>O Escritório de Apoio de Coordenação GO-FAIR Brasil é um dos escritórios regionais da rede GO-FAIR e tem a responsabilidade de difundir, apoiar e coordenar as atividades relacionadas à adoção da estratégia de implementação dos princípios FAIR definida pela iniciativa GO-FAIR em todo o território brasileiro.</p>
                 <img src={logo} style={{width: "20%"}} alt="manifesto"/>
                 <p style={{color: "#9D9D9D"}}>Acesse o manifesto aberto da rede de implementação temática go-fair agro brasil</p>
                 <a href={pdf} download="manifesto"><button id="dowloadManifesto">Baixar o manifesto em pdf</button></a>
