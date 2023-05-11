@@ -1,0 +1,180 @@
+.videoContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #2D6D2C;
+    padding: 5%;
+}
+
+.videoContainer h3{
+    font-family: 'Scada';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    margin: 30px 0px 30px 0px;
+}
+
+.videoContainer h1{
+    font-family: 'Scada';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.videoContainer p{
+    font-style: normal;
+    font-size: 20px;
+    align-items: center;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.backgroundVideo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 80%;
+    padding: 50px 5px;
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.textVideo{
+    color: white;
+    padding: 2%;
+}
+
+.textTitle{
+    width: fit-content;
+    border-bottom: black 10px solid;
+}
+
+.textVideo h1{
+    font-size: 50px;
+}
+
+#textTitleVideo{
+    width: fit-content;
+    border-bottom: white 10px solid;
+}
+
+
+#videoYtb{
+    width: 60%;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.implementationCardDeck{
+    display: flex;
+    width: 80%;
+    align-self: center;
+    justify-content: space-evenly;
+}
+
+.implementationCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1.22078px solid #00191A;
+    width: 33.3%;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+
+
+.implementationCard li{
+    font-family: 'Archivo black';
+    color: white;
+}
+
+.implementationCard p{
+    text-align: center;
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#implementationGP{
+    border-radius: 10px 0px 0px 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#implementationMaterial{
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 0px 0px 0px 0px;
+
+}
+
+#implementationOficina{
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 0px 10px 10px 0px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px) {
+    
+
+    .implementationCardDeck{
+        flex-direction: column;
+    }
+
+    .implementationCard{
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+    }
+
+    .implementationCard a{
+        width: 150px!important;
+    }
+
+    
+    .videoContainer h1{
+        font-size: 40px;
+    }
+
+    .videoContainer h3{
+        font-size: 28px;
+    }
+
+    .videoContainer p {
+        margin-top: 10px;
+        font-size: 18px;
+        text-align: center;
+        text-transform: none;
+    }
+
+    .backgroundVideo{
+        width: 100%;
+        background-color: #2D6D2C;
+        padding: 0px;
+    }
+
+    #videoYtb{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    
+
+    #implementationGP{
+        border-radius: 10px;
+    }
+    
+    #implementationMaterial{
+        border-radius: 10px;
+    }
+    
+    #implementationOficina{
+        border-radius: 10px;
+    }
+
+}

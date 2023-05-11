@@ -1,0 +1,141 @@
+.manifestContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #2D6D2C;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    align-items: right;
+}
+
+.manifestContainer img{
+    width:  300px;
+    margin-top: 5%;
+    align-self: center;
+}
+
+#buttonDefault{
+    width: fit-content;
+    padding: 10px 40px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #008237;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 200ms;
+}
+
+#buttonDefault:hover{
+    background-color: #287D27;
+    color: #DCBD3E;
+}
+
+.manifestContainer h3{
+    font-family: 'Saira';
+    float: right;
+    font-style: normal;
+    font-weight: 600;
+    text-align: right;   
+    color: #DCBD3E;
+    margin-right: 50px;
+    font-size: 40px;
+}
+
+.manifestContainer h2{
+    font-family: 'Scada';
+    float: right;
+    text-align: right;   
+    margin-right: 90px;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    color: #000E8E;
+}
+
+#manifestP{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    padding-left: 4%;
+    margin-right:70px;
+
+    margin-top: -10px;
+}
+
+#manifestDescription{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px; 
+    margin-top: 4%;
+    margin-right: 70px;
+
+    text-align: right;
+    color: #FFFFFF;    
+}
+
+.manifestContainer a{
+    align-self: last baseline!important;
+    margin-right: 70px!important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .manifestContainer h2{
+        font-size: 50px;
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    .manifestContainer img{
+        width: 60%;
+    }
+
+    .manifestContainer a{
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    
+
+    .manifestContainer h3{
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    #manifestP{
+        text-align: justify;
+        margin-right: 0px;
+        padding: 0% 4%;
+        font-size: 18px;
+    }
+
+    #manifestDescription{
+        text-align: justify;
+        padding: 4%;
+        font-size: 18px;
+
+    }
+    .manifestContainer{
+        padding-top: 6%;
+    }
+
+    .manifestContainer a{
+        align-self: center!important;
+        margin-right: 0px!important;
+    }
+
+}

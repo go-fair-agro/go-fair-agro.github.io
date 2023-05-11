@@ -1,16 +1,40 @@
 .footerContainer{
     display: flex;
-    padding: ;
     align-items: center;
     background-color: #5C5C5C;
-    height: 150px;
-    justify-content: space-around;
-    padding: 2%;
+    justify-content: space-between;
+    align-items: center;
     color: white;
+    padding: 5px 30px;
 }
 
-.footerSocialMedia{
-    display: flex;
-    width: 20%;
-    justify-content: space-evenly;
+.footerContainer a{
+    color: white;
+    text-decoration: none;
+    text-align: right;
 }
+
+.footerContainer p{
+    text-align: left;
+    margin: 0px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #footerLogo{
+        width: 120px;
+    }
+    
+    .footerContainer a{
+        font-size: 13px;
+    }
+    .footerContainer img{
+        width: 30px;
+    }
+    .footerSocialMedia{
+        display: none;
+    }
+    .footerContainer p{
+        font-size: 13px
+    }    
+}
+

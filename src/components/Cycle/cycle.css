@@ -1,0 +1,127 @@
+.cycleCotainer{
+    background: #000E8E;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cycleCotainer p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 2% 3%;
+}
+
+.cycleCotainer h1{
+    width: fit-content;
+    background: #E3BC26;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Scada';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.cycleOficinasContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.cycleOficinasContainer h1{
+    font-family: 'Scada';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF; 
+    margin-top: 20px;  
+}
+
+.cycleOficinasDeck{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.cycleCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+    width: 45%;
+    padding: 10px;
+    box-shadow: 0 -5px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.cycleCard a{
+    font-size: 20px;
+    background: #E3BC26;
+    border: 1px solid #CBB7B7;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000E8E;
+    margin: 20px 0px 0px 20px;
+    transition: 200ms;
+}
+
+.cycleCard a:hover{
+    background-color: #000E8E;
+    color: #FFFFFF;
+}
+
+.cycleCard img{
+    border: 1px solid gray;
+    width: 280px;
+    height: 160px;
+}
+
+.cycleCard p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #000E8E;
+}
+
+@media screen and (min-width: 320px) and (max-width:360px) {
+    #cycleDrive{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:800px) {
+    .cycleCotainer p{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .cycleCard{
+        background-color: white;
+        border-radius: 10px;
+        width: 100%;
+    }
+    .cycleOficinasContainer{
+        background-color: #000E8E;
+    }
+}
+
