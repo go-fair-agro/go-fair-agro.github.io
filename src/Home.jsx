@@ -1,3 +1,5 @@
+/* deploy fix */
+
 import './home.css';
 import { Header } from './components/Header/Header';
 import { Text } from './components/Text/Text';
