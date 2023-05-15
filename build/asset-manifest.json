@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/go-fair-agro/static/css/main.9888904d.css",
-    "main.js": "/go-fair-agro/static/js/main.7b797953.js",
+    "main.js": "/go-fair-agro/static/js/main.fc433416.js",
     "static/media/banner.png": "/go-fair-agro/static/media/banner.499b58798428dc821772.png",
     "static/media/oficina1.png": "/go-fair-agro/static/media/oficina1.08407907b8b9dac2a594.png",
     "static/media/oficina4.png": "/go-fair-agro/static/media/oficina4.ba6ff6bb3755ed61c95b.png",
@@ -15,15 +15,14 @@
     "static/media/logoUsp.png": "/go-fair-agro/static/media/logoUsp.4c40323e5f7b14b0281b.png",
     "static/media/go-fair.png": "/go-fair-agro/static/media/go-fair.339dd150cf0e426eef6d.png",
     "static/media/manifesto.pdf": "/go-fair-agro/static/media/manifesto.09edc7a0f111d7c85a7b.pdf",
-    "static/media/logo.png": "/go-fair-agro/static/media/logo.73cb2f01b7c2129d5dc2.png",
     "static/media/logo-go-fair-agro.png": "/go-fair-agro/static/media/logo-go-fair-agro.ec7d7916536ef31a1c7a.png",
-    "static/media/go-fair-brasil-agro-logo.svg": "/go-fair-agro/static/media/go-fair-brasil-agro-logo.8e443b271244ae5563c92947421edd61.svg",
+    "static/media/logoFairAgro-noBG.png": "/go-fair-agro/static/media/logoFairAgro-noBG.3b095da9b1b81c0c7793.png",
     "index.html": "/go-fair-agro/index.html",
     "main.9888904d.css.map": "/go-fair-agro/static/css/main.9888904d.css.map",
-    "main.7b797953.js.map": "/go-fair-agro/static/js/main.7b797953.js.map"
+    "main.fc433416.js.map": "/go-fair-agro/static/js/main.fc433416.js.map"
   },
   "entrypoints": [
     "static/css/main.9888904d.css",
-    "static/js/main.7b797953.js"
+    "static/js/main.fc433416.js"
   ]
 }
