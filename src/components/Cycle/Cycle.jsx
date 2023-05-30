@@ -19,6 +19,7 @@ export const Cycle = () => {
                     <div className="cycleCard">
                         <p id="cycleCardTitle">Infraestrutura de Repositórios com Fátima Nunes Marques, Professora titular da Universidade de São Paulo.</p>
                         <img src={oficina1} alt="" />
+                        <p>Acesse o material:</p>
                         <div className="cardDeckLinks">
                             <a href="https://www.youtube.com/watch?v=OyNUByzgP4A">
                                 <img id="linkYtb" src={ytb} alt="" />
@@ -37,6 +38,7 @@ export const Cycle = () => {
                     <div className="cycleCard">
                         <p id="cycleCardTitle">Padrões de Dados e Metadados. Tipologia de Dados com Dr. João Luiz Moreira, Professor Assistente da Services and Cyber-Security (SCS).</p>
                         <img src={oficina2} alt="" />
+                        <p>Acesse o material:</p>
                         <div className="cardDeckLinks">
                             <a href="https://www.youtube.com/watch?v=QmvO9zk-vPs">
                                 <img id="linkYtb" src={ytb} alt="" />
@@ -56,6 +58,7 @@ export const Cycle = () => {
                     <div className="cycleCard">
                         <p id="cycleCardTitle">Palestra Ontologia, ontologias e o “I” de FAIR com Giancarlo Guizzardi, Full Professor da Universidade de Twente.</p>
                         <img src={oficina3} alt="" />
+                        <p>Acesse o material:</p>
                         <div className="cardDeckLinks">
                             <a href="https://www.youtube.com/watch?v=B_NbXSJWxgc">
                                 <img id="linkYtb" src={ytb} alt="" />
@@ -74,6 +77,7 @@ export const Cycle = () => {
                     <div className="cycleCard">
                         <p id="cycleCardTitle">Política e Plano de Gestão de Dados, Viviane Veiga</p>
                         <img src={oficina4} alt="" />
+                        <p>Acesse o material:</p>
                         <div className="cardDeckLinks">
                             <a href="https://miro.com/app/board/uXjVPdTesSE=/">
                                 <img id="linkMiro"  src={miro} alt="" />
