@@ -3,8 +3,7 @@
     flex-direction: column;
     width: 100%;
     background: #2D6D2C;
-    padding-bottom: 3%;
-    padding-top: 3%;
+    padding: 5%;
     align-items: right;
 }
 
@@ -32,7 +31,6 @@
     font-weight: 400;
     font-size: 20px;
     color: #008237;
-    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     transition: 200ms;
 }
 
@@ -48,16 +46,15 @@
     font-weight: 600;
     text-align: right;   
     color: #DCBD3E;
-    margin-right: 50px;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .manifestContainer h2{
     font-family: 'Scada';
     float: right;
     text-align: right;   
-    margin-right: 90px;
-    font-size: 60px;
+    font-size: 70px;
+    margin-right: 50px;
     font-style: normal;
     font-weight: 700;
     color: #000E8E;
@@ -72,7 +69,6 @@
     text-align: right;
     color: #FFFFFF;
     padding-left: 4%;
-    margin-right:70px;
 
     margin-top: -10px;
 }
@@ -83,7 +79,6 @@
     font-weight: 700;
     font-size: 20px; 
     margin-top: 4%;
-    margin-right: 70px;
 
     text-align: right;
     color: #FFFFFF;    
@@ -91,7 +86,6 @@
 
 .manifestContainer a{
     align-self: last baseline!important;
-    margin-right: 70px!important;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -113,6 +107,7 @@
 
     .manifestContainer h3{
         margin-right: 0px;
+        font-size: 35px;
         text-align: center;
     }
 

@@ -19,18 +19,19 @@
     font-style: normal;
     font-weight: 600;
     color: #00518E;
-    font-size: 40px;
+    font-size: 50px;
     text-align: left;
+    
 }
 
 .aboutUsRede h2{
     font-family: 'Scada';
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 70px;
     color: #2D6D2C;
     text-align: left;
-    padding-left: 10%;
+    margin-left: 50px;
 }
 
 .aboutUsRede p{
@@ -56,7 +57,6 @@
 
 .aboutUsMissao a{
     float: right;
-    margin-right: 10%;
 }
 
 .aboutUsMissao h2{
@@ -66,7 +66,6 @@
     font-size: 60px;
     color: #2D6D2C;
     text-align: right;
-    padding-right: 10%;
 }
 
 .aboutUsMissao p{
@@ -76,7 +75,6 @@
     font-size: 20px;
     color: #000000;
     text-align: right;
-    padding-right: 10%;
 }
 
 #buttonBlue{
@@ -97,7 +95,6 @@
     font-weight: 400;
     font-size: 20px;
     color: #FFFFFF;
-    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     transition: 200ms;
 }
 
@@ -127,7 +124,7 @@
 
     .aboutUsRede h2{
         font-size: 45px;
-        padding-left: 0px;
+        margin-left: 0px;
     }
 
     .aboutUsRede p{
