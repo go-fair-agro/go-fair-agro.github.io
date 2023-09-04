@@ -67,7 +67,7 @@ export const Contact = () => {
 				<textarea value={message?.message} placeholder="Mensagem" onChange={event => {handleMessage(event,"message");}}/>
 				<br/>
 				<br/>
-				<button id="buttonSubmit" onClick={sendEmail}>Submeter</button> 
+				<button id="buttonSubmit" onClick={()=> console.log("adicionar função")}>Submeter</button> 
 			</div>
 		</div>
 	); 
