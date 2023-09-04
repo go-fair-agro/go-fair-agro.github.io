@@ -1,0 +1,129 @@
+.contactContainer {
+    display: flex;
+    width: 100%;
+    background-color: #2D6D2C;
+	justify-content: space-evenly;
+    align-items: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+#contactImg {
+    width: 640px;
+    margin-top: 30;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+    color: white;
+}
+
+.contactForm h1 {
+    font-size: 50px;
+    font-family: 'Scada';
+    font-weight: bold;
+}
+
+.contactForm p{
+    font-family: "Saira";
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.contactForm input{
+    border-radius: 18px;
+	height: 50px;
+	width: 90%;
+	outline: none;
+    border: #2D6D2C 3px solid;
+	padding-left: 15px;
+    padding-right: 15px;
+	margin-top: 10px;
+	font-family: 'Lato'
+}
+
+.contactForm input::placeholder {
+    color: #BABABA;
+    font-size: 20px;
+}
+
+.contactForm textarea {
+    border-radius: 18px;
+    padding-top: 16px;
+	height: 120px;
+	width: 90%;
+	outline: none;
+    border: #2D6D2C 3px solid;
+	padding-left: 15px;
+	margin-top: 10px;
+	font-family: 'Lato';
+    resize: none;
+}
+
+.contactForm textarea::placeholder {
+    color: #BABABA;
+    font-size: 20px;
+}
+
+
+.contactForm input::-webkit-outer-spin-button, ::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#contactInputMessage {
+	    height: 90px;
+}
+
+#buttonSubmit{
+    margin-top: 15px;
+    width: fit-content;
+    padding: 10px 30px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #008237;
+    transition: 200ms;
+}
+
+/* Responsividade */
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+@media (max-width: 768px) {
+    #contactImg{
+        display: none;
+    }
+    .contactForm p{
+        padding: 1% 5%;
+    }
+    .buttonWhite{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .contactForm{
+        margin-right: 2%;
+    }
+    #contactImg{
+        width: 50%;
+    }
+}

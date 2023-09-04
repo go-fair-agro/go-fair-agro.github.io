@@ -8,6 +8,7 @@ import { Cycle } from './components/Cycle/Cycle';
 import { Publications } from './components/Publications/Publications';
 import { Footer } from './components/Footer/Footer';
 import { Coordination } from './components/Coordination/Coordination';
+import { Contact } from './components/Contact/Contact.tsx';
 import banner from "./assets/banner.png";
 
 export const Home = () => {
@@ -24,6 +25,7 @@ export const Home = () => {
       <Cycle/>
       <Publications/>
       <Coordination/>
+      <Contact/>
       <Footer/>
     </div>
   );
