@@ -10,6 +10,7 @@ import { Footer } from './components/Footer/Footer';
 import { Coordination } from './components/Coordination/Coordination';
 import { Contact } from './components/Contact/Contact.tsx';
 import banner from "./assets/banner.png";
+import { News } from './components/News/News';
 
 export const Home = () => {
   return (
@@ -22,6 +23,7 @@ export const Home = () => {
       <Manifest/>
       <AboutUs/>
       <Implementation/>
+      <News/>
       <Cycle/>
       <Publications/>
       <Coordination/>

@@ -77,7 +77,7 @@
     text-align: right;
 }
 
-#buttonBlue{
+#buttonGreen{
     width: fit-content;
     padding: 10px 40px;
     text-align: center;
@@ -98,7 +98,7 @@
     transition: 200ms;
 }
 
-#buttonBlue:hover{
+#buttonGreen:hover{
     background-color: #DCBD3E;
     color: #FFFFFF;
 }

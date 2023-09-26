@@ -96,7 +96,13 @@
     font-weight: 400;
     font-size: 20px;
     color: #008237;
-    transition: 200ms;
+    transition: 100ms;
+    border: none;
+}
+
+#buttonSubmit:hover{
+    background-color: #287D27;
+    color: #DCBD3E;
 }
 
 /* Responsividade */

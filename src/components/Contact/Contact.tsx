@@ -29,9 +29,15 @@ export const Contact = () => {
 
 	// Função para enviar o email
 	function sendEmail(){
+
+		var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+		if (message?.email.match(validRegex)) {
+		  console.log("email válido");
+
 		// Verificação básica para ver se os campos não estão vazios
-		if (message?.name == "" || message?.email == "" || message?.message == "" ) {
-			alert("Por favor preencha todos os campos"); // Futuramente colocar algum elemento na tela ao inves de um alert
+		if (message?.name === "" || message?.email === "" || message?.message === "" ) {
+			alert("Por favor preencha todos os campos"); // Futuramente colocar algum elemento na tela ao inves de um alert	
 		} else {
 			const templateParms = {
 				name: message?.name,
@@ -40,7 +46,7 @@ export const Contact = () => {
 			};
 		
 			// Passamos 4 parametros no metodo send (service_id, template_id, parametros da mensagem que foi configurada no template, public_key)
-			emailjs.send("service_4jw04wx", "template_bgrfwqa", templateParms , "7uN9BAm-ze4ihfO32")
+			emailjs.send("service_qzrrdxd", "template_c4or48d", templateParms , "z2d2bDMsEsMe9FJfn")
 				.then((response) => {
 					alert("Email enviado");
 					console.log("Email enviado", response.status, response.text);
@@ -54,6 +60,10 @@ export const Contact = () => {
 					console.log("Error: ", error);
 				});
 		}
+
+		} else {
+	  		alert("Email inválido!"); 
+		}
 	}
 	// Retornando os elementos do componente
 	return (
@@ -63,11 +73,11 @@ export const Contact = () => {
 				<h1>Contato</h1>
 				<p>Mande sua mensagem e em breve retornamos.</p>
 				<input value={message?.name} placeholder="Nome" onChange={event => {handleMessage(event,"name");}}/>
-				<input value={message?.email} placeholder="Email" type="text" onChange={event => {handleMessage(event,"email");}}/>
+				<input value={message?.email} placeholder="Email" type="email" onChange={event => {handleMessage(event,"email");}} pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required />
 				<textarea value={message?.message} placeholder="Mensagem" onChange={event => {handleMessage(event,"message");}}/>
 				<br/>
 				<br/>
-				<button id="buttonSubmit" onClick={()=> console.log("adicionar função")}>Submeter</button> 
+				<button id="buttonSubmit" onClick={()=> sendEmail()}>Submeter</button> 
 			</div>
 		</div>
 	); 

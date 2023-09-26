@@ -12,8 +12,10 @@ export const Header = () => {
           <Nav className="me-auto">
               <Nav.Link id="navBarLink" style={{color: "#E3BC26"}} href="#Manifesto">Manifesto</Nav.Link>
               <Nav.Link id="navBarLink" style={{color: "#E3BC26"}} href="#Implementação">Implementação</Nav.Link>
+              <Nav.Link id="navBarLink" style={{color: "#E3BC26"}} href="#Novidades">Novidades</Nav.Link>
               <Nav.Link id="navBarLink" style={{color: "#E3BC26"}} href="#Oficinas">Ciclo de Oficinas</Nav.Link>
               <Nav.Link id="navBarLink" style={{color: "#E3BC26"}} href="#Publicações">Publicações</Nav.Link>
+              <Nav.Link id="navBarLink" style={{color: "#E3BC26"}} href="#contactContainer">Contato</Nav.Link>
           </Nav>
         </Navbar.Collapse>
     </Navbar>
