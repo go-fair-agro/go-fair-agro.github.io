@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.de29b7ad.css",
-    "main.js": "/static/js/main.62ecd12b.js",
+    "main.css": "/static/css/main.66ecfba8.css",
+    "main.js": "/static/js/main.ff925fe9.js",
     "static/media/banner.png": "/static/media/banner.499b58798428dc821772.png",
     "static/media/oficina1.png": "/static/media/oficina1.08407907b8b9dac2a594.png",
     "static/media/oficina4.png": "/static/media/oficina4.ba6ff6bb3755ed61c95b.png",
@@ -18,11 +18,11 @@
     "static/media/logo-go-fair-agro.png": "/static/media/logo-go-fair-agro.ec7d7916536ef31a1c7a.png",
     "static/media/logoFairAgro-noBG.png": "/static/media/logoFairAgro-noBG.3b095da9b1b81c0c7793.png",
     "index.html": "/index.html",
-    "main.de29b7ad.css.map": "/static/css/main.de29b7ad.css.map",
-    "main.62ecd12b.js.map": "/static/js/main.62ecd12b.js.map"
+    "main.66ecfba8.css.map": "/static/css/main.66ecfba8.css.map",
+    "main.ff925fe9.js.map": "/static/js/main.ff925fe9.js.map"
   },
   "entrypoints": [
-    "static/css/main.de29b7ad.css",
-    "static/js/main.62ecd12b.js"
+    "static/css/main.66ecfba8.css",
+    "static/js/main.ff925fe9.js"
   ]
 }

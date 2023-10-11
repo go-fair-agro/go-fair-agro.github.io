@@ -9,7 +9,8 @@ export const News = () => {
                 <div className="postCardDeck">
                     <div className="newCard">
                         <h2>Palestra com Clement Jonquet: Agroportal - Repositório de Vocabulários e Ontologias para Agronomia</h2>
-                        <p style={{marginTop: 0}}>Marque em seu calendário! No dia 17 de outubro, das 13h às 14h (horário de Brasília), teremos a honra de receber Clement Jonquet para uma palestra. Ele é o coordenador do Agroportal <a href="https://agroportal.lirmm.fr/">https://agroportal.lirmm.fr/</a>, um repositório de vocabulários e ontologias para a agronomia e domínios relacionados. Esta palestra é organizada pelo GT Ontologias e está aberta a todos os interessados. Fique atento para mais detalhes em breve e ajude-nos a divulgar este evento incrível!</p>
+                        <p style={{marginTop: 0}}>Estão abertas as inscrições para a palestra "FAIR DATA requires FAIR ONTOLOGIES, how do we do?" ministrada pelo professor doutor Clement Jonquet na próxima terça-feira, dia 17 de outubro. Todos os interessados no tema de construção, organização, disponibilização e uso de ontologias poderão tirar proveito da fala do especialista francês que discutirá na sua palestra as questões relacionadas aos princípios FAIR e à construção e organização de ontologias, por meio da apresentação do AgroPortal e OntoPortal. A palestra é gratuita e será on-line, em inglês, somente para inscritos. Acesse o link e faça já sua inscrição</p>
+                        <a id="buttonGreenSmall" href="https://forms.gle/uY78KywEbQbnbAzc7">Inscreva-se</a>
                     </div>
 
                     <div className="newCard">

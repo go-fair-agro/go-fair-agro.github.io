@@ -20,6 +20,31 @@
     color: #000000;
 }
 
+
+#buttonGreenSmall{
+    width: fit-content;
+    padding: 8px 20px;
+    text-align: center;
+    background: #2D6D2C;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    transition: 200ms;
+}
+
+#buttonGreenSmall:hover{
+    background-color: #DCBD3E;
+    color: #FFFFFF;
+}
+
 @media screen and (min-width: 320px) and (max-width: 900px){
     
 
