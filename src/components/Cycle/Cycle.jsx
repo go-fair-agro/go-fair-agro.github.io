@@ -3,9 +3,12 @@ import oficina1 from "../../assets/oficina1.png";
 import oficina2 from "../../assets/oficina2.png";
 import oficina3 from "../../assets/oficina3.png";
 import oficina4 from "../../assets/oficina4.png";
+import oficina5 from "../../assets/oficina4.jpeg";
 import ytb from "../../assets/ytb.png";
 import miro from "../../assets/miro.png";
 import pdf from "../../assets/pdf.png";
+import pdf2 from "../../assets/23-10-17_OFAIRe_GO-FAIR-Agro-Brazil_Jonquet.pdf";
+
 
 import "./cycle.css";
 
@@ -13,9 +16,26 @@ export const Cycle = () => {
     return (
         <div id="Oficinas" className="cycleCotainer">
             <h1>Ciclo de oficinas</h1>
-            <p>O ciclo de eventos voltado para a governança e gestão dos dados da pesquisa agropecuária realizados pela Rede GO FAIR Agro. Foram Quatro oficinas, precedidas por palestras de profissionais convidados e que abordaram temas como infraestrutura de repositórios, políticas e planos de gestão de dados, padrões de dados e metadados, modelo conceitual e interoperabilidade semântica. As oficinas aconteceram em formato virtual.</p>
+            <p>O ciclo de eventos voltado para a governança e gestão dos dados da pesquisa agropecuária realizado pela Rede GO FAIR Agro. Foram várias oficinas, precedidas por palestras de profissionais convidados, abordando temas como infraestrutura de repositórios, políticas e planos de gestão de dados, padrões de dados e metadados, modelo conceitual e interoperabilidade semântica. As oficinas aconteceram em formato virtual.</p>
             <div className="cycleOficinasContainer">
                 <div className="cycleOficinasDeck">
+
+                <div className="cycleCard">
+                        <p id="cycleCardTitle">Palestra com Clement Jonquet: Agroportal - Repositório de Vocabulários e Ontologias para Agronomia</p>
+                        <img src={oficina5} alt="" />
+                        <p>Acesse o material:</p>
+                        <div className="cardDeckLinks">
+                            <a href="https://youtu.be/PT9LWAom5qw">
+                                <img id="linkYtb" src={ytb} alt="" />
+                                <p>Youtube</p>
+                            </a>
+                            <a href={pdf2} download>
+                                <img id="linkPDF"  src={pdf} alt="" />
+                                <p>PDF</p>
+                            </a>
+                        </div>
+                    </div>
+
                     <div className="cycleCard">
                         <p id="cycleCardTitle">Infraestrutura de Repositórios com Fátima Nunes Marques, Professora titular da Universidade de São Paulo.</p>
                         <img src={oficina1} alt="" />
