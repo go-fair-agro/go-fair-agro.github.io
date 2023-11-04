@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.99ffc222.css",
-    "main.js": "/static/js/main.59a689ac.js",
+    "main.css": "/static/css/main.20641bda.css",
+    "main.js": "/static/js/main.67a9058d.js",
     "static/media/23-10-17_OFAIRe_GO-FAIR-Agro-Brazil_Jonquet.pdf": "/static/media/23-10-17_OFAIRe_GO-FAIR-Agro-Brazil_Jonquet.c8c5578f063b36f70016.pdf",
     "static/media/banner.png": "/static/media/banner.499b58798428dc821772.png",
     "static/media/oficina1.png": "/static/media/oficina1.08407907b8b9dac2a594.png",
@@ -19,12 +19,13 @@
     "static/media/manifesto.pdf": "/static/media/manifesto.09edc7a0f111d7c85a7b.pdf",
     "static/media/logo-go-fair-agro.png": "/static/media/logo-go-fair-agro.ec7d7916536ef31a1c7a.png",
     "static/media/logoFairAgro-noBG.png": "/static/media/logoFairAgro-noBG.3b095da9b1b81c0c7793.png",
+    "static/media/miro.png": "/static/media/miro.2e56e5f108085c957156.png",
     "index.html": "/index.html",
-    "main.99ffc222.css.map": "/static/css/main.99ffc222.css.map",
-    "main.59a689ac.js.map": "/static/js/main.59a689ac.js.map"
+    "main.20641bda.css.map": "/static/css/main.20641bda.css.map",
+    "main.67a9058d.js.map": "/static/js/main.67a9058d.js.map"
   },
   "entrypoints": [
-    "static/css/main.99ffc222.css",
-    "static/js/main.59a689ac.js"
+    "static/css/main.20641bda.css",
+    "static/js/main.67a9058d.js"
   ]
 }
