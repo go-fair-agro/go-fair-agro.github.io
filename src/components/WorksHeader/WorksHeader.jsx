@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 
-export const Header = () => {
+export const WorksHeader = () => {
     return(
       <Navbar style={{padding: "5px 4%"}} fixed="top" bg="white" expand="lg">
         <Navbar.Brand href="/"><img id="navbarLogo" src={logo}/></Navbar.Brand>
