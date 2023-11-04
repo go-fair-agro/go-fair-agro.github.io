@@ -1,7 +1,7 @@
 {
   "name": "go-fair-agro",
   "version": "0.1.0",
-  "homepage": "https://go-fair-agro.github.io/",
+  "homepage": "https://go-fair-agro.github.io/#",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
