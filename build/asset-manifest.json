@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d2ae715.css",
-    "main.js": "/static/js/main.1bc780ee.js",
+    "main.css": "/static/css/main.20641bda.css",
+    "main.js": "/static/js/main.67a9058d.js",
+    "static/media/23-10-17_OFAIRe_GO-FAIR-Agro-Brazil_Jonquet.pdf": "/static/media/23-10-17_OFAIRe_GO-FAIR-Agro-Brazil_Jonquet.c8c5578f063b36f70016.pdf",
     "static/media/banner.png": "/static/media/banner.499b58798428dc821772.png",
     "static/media/oficina1.png": "/static/media/oficina1.08407907b8b9dac2a594.png",
     "static/media/oficina4.png": "/static/media/oficina4.ba6ff6bb3755ed61c95b.png",
@@ -13,16 +14,18 @@
     "static/media/post1.png": "/static/media/post1.ddd092de3759949a8ba2.png",
     "static/media/logoEmbrepa.png": "/static/media/logoEmbrepa.f3ae1e723cd5d5a6e7ca.png",
     "static/media/logoUsp.png": "/static/media/logoUsp.4c40323e5f7b14b0281b.png",
+    "static/media/oficina4.jpeg": "/static/media/oficina4.a5b67ec23d8ff1e1da45.jpeg",
     "static/media/go-fair.png": "/static/media/go-fair.339dd150cf0e426eef6d.png",
     "static/media/manifesto.pdf": "/static/media/manifesto.09edc7a0f111d7c85a7b.pdf",
     "static/media/logo-go-fair-agro.png": "/static/media/logo-go-fair-agro.ec7d7916536ef31a1c7a.png",
     "static/media/logoFairAgro-noBG.png": "/static/media/logoFairAgro-noBG.3b095da9b1b81c0c7793.png",
+    "static/media/miro.png": "/static/media/miro.2e56e5f108085c957156.png",
     "index.html": "/index.html",
-    "main.0d2ae715.css.map": "/static/css/main.0d2ae715.css.map",
-    "main.1bc780ee.js.map": "/static/js/main.1bc780ee.js.map"
+    "main.20641bda.css.map": "/static/css/main.20641bda.css.map",
+    "main.67a9058d.js.map": "/static/js/main.67a9058d.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d2ae715.css",
-    "static/js/main.1bc780ee.js"
+    "static/css/main.20641bda.css",
+    "static/js/main.67a9058d.js"
   ]
 }
