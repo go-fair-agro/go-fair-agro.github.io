@@ -25,7 +25,7 @@ export const Implementation = () => {
                         <li>GT Políticas e Planos de Gestão de Dados</li>
                         <li>GT Ontologias</li>
                     </ul>
-                    <a id="buttonDefault" href={"https://go-fair-agro.github.io/grupos_de_trabalho"}>Confira</a>
+                    <a id="buttonDefault" href={"https://go-fair-agro.github.io/#/grupos_de_trabalho"}>Confira</a>
                 </div>
                 <div id="implementationMaterial" className="implementationCard">
                     <p>Apresentação  GO FAIR Agro Brasil, Perspectivas e Desafios do Professor Dr.Serra</p>

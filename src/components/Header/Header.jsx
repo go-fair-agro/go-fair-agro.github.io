@@ -13,7 +13,7 @@ export const Header = () => {
           <Nav className="me-auto">
               <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} href="https://go-fair-agro.github.io/#Manifesto">Manifesto</Nav.Link>
               <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} href="https://go-fair-agro.github.io/#Implementação">Implementação</Nav.Link>
-              <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} href="https://go-fair-agro.github.io/trabalhos">Trabalhos apresentados</Nav.Link>
+              <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} href="https://go-fair-agro.github.io/#/trabalhos">Trabalhos apresentados</Nav.Link>
               <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} href="https://go-fair-agro.github.io/#Novidades">Novidades</Nav.Link>
               <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} href="https://go-fair-agro.github.io/#contactContainer">Contato</Nav.Link>
           </Nav>
