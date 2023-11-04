@@ -1,7 +1,23 @@
+.postCarouselItem{
+    width:100%;
+    height: 550px;
+}
+
+.newCardDeck{
+    display: flex;
+    justify-content: space-between;
+}
+
+.postCarousel{
+    display: flex;
+    justify-content: center;
+}
+
 .newCard{
     display: flex;
     width: 45%;
     padding: 20px;
+    height: 450px;
     flex-direction: column;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     margin: 20px 0px 20px 0px;
@@ -45,8 +61,33 @@
     color: #FFFFFF;
 }
 
+.postCarouselMobile{
+    display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px){
+    .postCarouselItem{
+        height: 780px;
+    }
+    .newCard h2{ 
+        font-size:18px;
+    }
+    .newCard p{ 
+        font-size: 14px;
+    }
+    .newCard{ 
+        height: 680px;
+    }
+}
+
+
 @media screen and (min-width: 320px) and (max-width: 900px){
-    
+    .postCarouselMobile{
+        display: block;
+    }
+    .postCarouselDesktop{
+        display: none;
+    }
 
     .postContainer h1{
         font-size: 40px;
@@ -56,12 +97,36 @@
         font-size: 23px;
     }
     
-    .newCard p{
-        font-size: 15px;   
-    }
-    
+
 
     .newCard{
         width: 100%;
     }
 }
+
+@media screen and (min-width: 901px) and (max-width: 1100px) {
+    .postCarouselMobile{
+        display: block;
+    }
+    .postCarouselDesktop{
+        display: none;
+    }
+
+    
+    .newCard{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1800px) {
+    .postCarouselItem{
+        height: 700px;
+    }
+    
+    .newCard{ 
+        height: 550px;
+    }
+}
+
+
+

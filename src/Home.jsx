@@ -24,8 +24,6 @@ export const Home = () => {
       <AboutUs/>
       <Implementation/>
       <News/>
-      <Cycle/>
-      <Publications/>
       <Coordination/>
       <Contact/>
       <Footer/>

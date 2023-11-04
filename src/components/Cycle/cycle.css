@@ -1,5 +1,5 @@
 .cycleCotainer{
-    background: #000E8E;
+    background-color: #2D6D2C;
     padding: 5%;
     display: flex;
     flex-direction: column;
@@ -31,26 +31,16 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: white;
-    border-radius: 15px;
     align-items: center;
 }
 
-.cycleOficinasContainer h1{
-    font-family: 'Scada';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    text-align: center;
-    color: #FFFFFF; 
-    margin-top: 20px;  
-}
 
 .cycleOficinasDeck{
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
     justify-content: space-between;
+    width: 100%;
 }
 
 .cycleCard{
@@ -61,6 +51,9 @@
     width: 45%;
     padding: 10px;
     box-shadow: 0 -5px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color: white;
+    border-radius: 12px;
+
 }
 
 .cardDeckLinks{
@@ -71,21 +64,22 @@
 
 .cardDeckLinks a{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+    background: #2D6D2C;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     align-items: center;
-    background: #E3BC26;
     border-radius: 10px;
-    width: 25%;
-    padding: 2%;
-    text-align: center;
+    width: 120px;
+    padding: 15px;
     text-decoration: none;
     font-family: 'Lato';
     font-weight: 700;
+    transition: 200ms;
+}
 
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-
-    color: #000E8E;
+.cardDeckLinks a:hover{
+    background-color: #DCBD3E;
+    color: #FFFFFF;
 }
 
 #cycleCardTitle{
@@ -93,9 +87,10 @@
 }
 
 .cardDeckLinks p{
-    font-size: 20px;
+    font-size: 15px !important;
     width: fit-content;
     margin-bottom: 0px;
+    color: white !important;
 }
 
 .cycleCard img{
@@ -110,172 +105,89 @@
     font-weight: 700;
     font-size: 20px;
     text-align: center;
-    color: #000E8E;
+    color:#2D6D2C;
 }
 
-
-@media screen and (min-width: 320px) and (max-width:520px) {
-    .cardDeckLinks a{
-        padding: 10px;
-        width: 30%;
-    }
-    #linkYtb{
-        width: 50px;
-        height: 30px;
-        border: none;
-    }
-    
-    #linkMiro{
-        width: 50px;
-        height: 30px;
-        border: none;
-    }
-    
-    #linkPDF{
-        width: 40px;
-        height: 30px;
-        border: none;
-    }
+#linkYtb{
+    width: 40px;
+    height: 20px;
+    border: none;
 }
 
-@media screen and (min-width: 520px) and (max-width: 670px) {
-    #linkYtb{
-        width: 60%;
-        height: 40px;
-        border: none;
-    }
-    
-    #linkMiro{
-        width: 80%;
-        height: 40px;
-        border: none;
-    }
-    
-    #linkPDF{
-        width: 50%;
-        height: 40px;
-        border: none;
-    }
+#linkMiro{
+    width: 40px;
+    height: 20px;
+    border: none;
 }
 
-@media screen and (min-width: 671px) and (max-width: 800px) {
-
-    #linkYtb{
-        width: 50%;
-        height: 40px;
-        border: none;
-    }
-    
-    #linkMiro{
-        width: 60%;
-        height: 40px;
-        border: none;
-    }
-    
-    #linkPDF{
-        width: 35%;
-        height: 40px;
-        border: none;
-    }
+#linkPDF{
+    width: 20px;
+    height: 25px;
+    border: none;
 }
 
+#cycleHR {
+    border-top: 1px dotted red;
+  }
 
-@media screen and (min-width: 801px) and (max-width: 1000px) {
-    .cardDeckLinks a{
-        width: 30%;
-    }
-    #linkYtb{
-        width: 80%;
-        height: 40px;
-        border: none;
-    }
-    
-    #linkMiro{
-        width: 70%;
-        height: 40px;
-        border: none;
-    }
-    
-    #linkPDF{
-        width: 60%;
-        height: 40px;
-        border: none;
-    }
-}
-
-@media screen and (min-width: 1001px) and (max-width: 1600px) {
-    .cardDeckLinks a{
-        padding: 1%;
-        width: 22%;
-    }
-   
-    #linkYtb{
-        width: 45px;
-        height: 30px;
-        border: none;
-    }
-    
-    #linkMiro{
-        width: 50px;
-        height: 30px;
-        border: none;
-    }
-    
-    #linkPDF{
-        width: 40px;
-        height: 30px;
-        border: none;
-    }
-}
-
-@media screen and (min-width: 1600px) and (max-width: 4000px) {
-    .cardDeckLinks a{
-        padding: 1%;
-        width: 15%;
-    }
-   
-    #linkYtb{
-        width: 60px;
-        height: 40px;
-        border: none;
-    }
-    
-    #linkMiro{
-        width: 70px;
-        height: 40px;
-        border: none;
-    }
-    
-    #linkPDF{
-        width: 50px;
-        height: 40px;
-        border: none;
-    }
-}
-
-@media screen and (min-width: 320px) and (max-width:360px) {
-    #cycleDrive{
-        font-size: 15px;
-    }
-}
 
 @media screen and (min-width: 320px) and (max-width:800px) {
     #cycleCardTitle{
         height: fit-content;
-    }
-    .cycleCotainer p{
-        margin-top: 10px;
-        font-size: 18px;
     }
     .cycleCard{
         background-color: white;
         border-radius: 10px;
         width: 100%;
     }
-    .cycleOficinasContainer{
-        background-color: #000E8E;
-    }
     .cycleCotainer h1{
         font-size: 60px;
     }
+    
+    .cycleOficinasDeck{
+        background-color:#2D6D2C;
+    }
 }
+
+
+@media screen and (min-width: 320px) and (max-width: 450px) {
+    .cardDeckLinks a{
+        width: 92px;
+        padding: 12px;
+    }
+    #linkYtb{
+        width: 35px;
+        height: 20px;
+        border: none;
+    }
+    
+    #linkMiro{
+        width: 30px;
+        height: 20px;
+        border: none;
+    }
+    
+    #linkPDF{
+        width: 20px;
+        height: 25px;
+        border: none;
+    }
+
+}
+
+@media screen and (min-width: 451px) and (max-width: 799px) {
+    .cardDeckLinks a{
+        width: 110px;
+        padding: 12px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1100px) {
+    .cardDeckLinks a{
+        width: 95px;
+        padding: 10px;
+    }
+}
+
+
+

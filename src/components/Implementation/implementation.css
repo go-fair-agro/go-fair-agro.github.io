@@ -18,13 +18,13 @@
 }
 
 .videoContainer h1{
-    font-family: 'Scada';
+    font-family: 'Saira';
     font-style: normal;
+    color: #DCBD3E;
     font-weight: 700;
     font-size: 55px;
     align-items: center;
     text-align: center;
-    color: #FFFFFF;
 }
 
 .videoContainer p{

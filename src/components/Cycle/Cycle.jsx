@@ -6,7 +6,7 @@ import oficina4 from "../../assets/oficina4.png";
 import oficina5 from "../../assets/oficina4.jpeg";
 import ytb from "../../assets/ytb.png";
 import miro from "../../assets/miro.png";
-import pdf from "../../assets/pdf.png";
+import pdf from "../../assets/download.png";
 import pdf2 from "../../assets/23-10-17_OFAIRe_GO-FAIR-Agro-Brazil_Jonquet.pdf";
 
 
@@ -15,27 +15,10 @@ import "./cycle.css";
 export const Cycle = () => {
     return (
         <div id="Oficinas" className="cycleCotainer">
-            <h1>Ciclo de oficinas</h1>
+            <h1>Ciclo de oficinas 2022</h1>
             <p>O ciclo de eventos voltado para a governança e gestão dos dados da pesquisa agropecuária realizado pela Rede GO FAIR Agro. Foram várias oficinas, precedidas por palestras de profissionais convidados, abordando temas como infraestrutura de repositórios, políticas e planos de gestão de dados, padrões de dados e metadados, modelo conceitual e interoperabilidade semântica. As oficinas aconteceram em formato virtual.</p>
             <div className="cycleOficinasContainer">
                 <div className="cycleOficinasDeck">
-
-                <div className="cycleCard">
-                        <p id="cycleCardTitle">Palestra com Clement Jonquet: Agroportal - Repositório de Vocabulários e Ontologias para Agronomia</p>
-                        <img src={oficina5} alt="" />
-                        <p>Acesse o material:</p>
-                        <div className="cardDeckLinks">
-                            <a href="https://youtu.be/PT9LWAom5qw">
-                                <img id="linkYtb" src={ytb} alt="" />
-                                <p>Youtube</p>
-                            </a>
-                            <a href={pdf2} download>
-                                <img id="linkPDF"  src={pdf} alt="" />
-                                <p>PDF</p>
-                            </a>
-                        </div>
-                    </div>
-
                     <div className="cycleCard">
                         <p id="cycleCardTitle">Infraestrutura de Repositórios com Fátima Nunes Marques, Professora titular da Universidade de São Paulo.</p>
                         <img src={oficina1} alt="" />
@@ -104,6 +87,25 @@ export const Cycle = () => {
                                 <p>Miro</p>
                             </a>
                             <a href="https://drive.google.com/file/d/1CIDrdIsyWbeqG3VxrlyBoZOOB1SZNJuz/view?usp=share_link">
+                                <img id="linkPDF"  src={pdf} alt="" />
+                                <p>PDF</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <hr style={{width: "100%", border: "3px solid #E3BC26", opacity: 1.0}}/>
+                <h1>Outras apresentações</h1>
+                <div className="cycleOficinasDeck">
+                <div className="cycleCard">
+                        <p id="cycleCardTitle">Palestra com Clement Jonquet: Agroportal - Repositório de Vocabulários e Ontologias para Agronomia</p>
+                        <img src={oficina5} alt="" />
+                        <p>Acesse o material:</p>
+                        <div className="cardDeckLinks">
+                            <a href="https://youtu.be/PT9LWAom5qw">
+                                <img id="linkYtb" src={ytb} alt="" />
+                                <p>Youtube</p>
+                            </a>
+                            <a href={pdf2} download>
                                 <img id="linkPDF"  src={pdf} alt="" />
                                 <p>PDF</p>
                             </a>

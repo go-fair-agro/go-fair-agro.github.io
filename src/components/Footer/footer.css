@@ -1,7 +1,7 @@
 .footerContainer{
     display: flex;
     align-items: center;
-    background-color: #5C5C5C;
+    background-color: #000E8E;
     justify-content: space-between;
     align-items: center;
     color: white;
@@ -9,13 +9,14 @@
 }
 
 .footerContainer a{
-    color: white;
+    color: #DCBD3E;
     text-decoration: none;
     text-align: right;
 }
 
 .footerContainer p{
     text-align: left;
+    color: #DCBD3E;
     margin: 0px;
 }
 
