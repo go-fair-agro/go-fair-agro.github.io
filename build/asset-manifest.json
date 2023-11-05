@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c3e1c6d.css",
-    "main.js": "/static/js/main.6caad4ab.js",
+    "main.css": "/static/css/main.66702bd8.css",
+    "main.js": "/static/js/main.519319c4.js",
     "static/media/23-10-17_OFAIRe_GO-FAIR-Agro-Brazil_Jonquet.pdf": "/static/media/23-10-17_OFAIRe_GO-FAIR-Agro-Brazil_Jonquet.c8c5578f063b36f70016.pdf",
     "static/media/banner.png": "/static/media/banner.499b58798428dc821772.png",
     "static/media/oficina1.png": "/static/media/oficina1.08407907b8b9dac2a594.png",
@@ -21,11 +21,11 @@
     "static/media/logoFairAgro-noBG.png": "/static/media/logoFairAgro-noBG.3b095da9b1b81c0c7793.png",
     "static/media/miro.png": "/static/media/miro.2e56e5f108085c957156.png",
     "index.html": "/index.html",
-    "main.2c3e1c6d.css.map": "/static/css/main.2c3e1c6d.css.map",
-    "main.6caad4ab.js.map": "/static/js/main.6caad4ab.js.map"
+    "main.66702bd8.css.map": "/static/css/main.66702bd8.css.map",
+    "main.519319c4.js.map": "/static/js/main.519319c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c3e1c6d.css",
-    "static/js/main.6caad4ab.js"
+    "static/css/main.66702bd8.css",
+    "static/js/main.519319c4.js"
   ]
 }

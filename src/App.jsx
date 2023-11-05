@@ -1,17 +1,16 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { Home } from "./Home";
 import { Works } from "./Works";
 import { Groups } from "./Groups";
 
+
 export const App = () => {
   return (
-    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/trabalhos" element={<Works />}/>
-        <Route path="/grupos_de_trabalho" element={<Groups />}/>
+        <Route path="" element={<Home />}/>
+        <Route path="trabalhos" element={<Works />}/>
+        <Route path="grupos_de_trabalho" element={<Groups />}/>
       </Routes>
-      </BrowserRouter>
   );
 } 
 
