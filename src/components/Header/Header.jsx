@@ -11,11 +11,8 @@ export const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-              <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} href="#Manifesto">Manifesto</Nav.Link>
-              <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} href="#Implementação">Implementação</Nav.Link>
               <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} href="https://go-fair-agro.github.io/#/trabalhos">Trabalhos apresentados</Nav.Link>
-              <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} href="#Novidades">Novidades</Nav.Link>
-              <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} href="#contactContainer">Contato</Nav.Link>
+              <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} href="https://go-fair-agro.github.io/#/grupos_de_trabalho">Grupos de trabalho</Nav.Link>
           </Nav>
         </Navbar.Collapse>
     </Navbar>
