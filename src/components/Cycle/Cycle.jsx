@@ -94,10 +94,10 @@ export const Cycle = () => {
                     </div>
                 </div>
                 <hr style={{width: "100%", border: "3px solid #E3BC26", opacity: 1.0}}/>
-                <h1>Outras apresentações</h1>
+                <h1>Novas apresentações</h1>
                 <div className="cycleOficinasDeck">
                 <div className="cycleCard">
-                        <p id="cycleCardTitle">Palestra com Clement Jonquet: Agroportal - Repositório de Vocabulários e Ontologias para Agronomia</p>
+                        <p id="cycleCardTitle">Palestra com Clement Jonquet: Agroportal - Repositório de Vocabulários e Ontologias para Agronomia (2023)</p>
                         <img src={oficina5} alt="" />
                         <p>Acesse o material:</p>
                         <div className="cardDeckLinks">
