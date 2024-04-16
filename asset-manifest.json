@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.b18f05a5.css",
-    "main.js": "/static/js/main.065c1415.js",
+    "main.css": "/static/css/main.38560544.css",
+    "main.js": "/static/js/main.0060ca4c.js",
     "static/media/digital_agriculture_with_lexical_network_analysis.pdf": "/static/media/digital_agriculture_with_lexical_network_analysis.4e4352f5801edb3c4244.pdf",
     "static/media/23-10-17_OFAIRe_GO-FAIR-Agro-Brazil_Jonquet.pdf": "/static/media/23-10-17_OFAIRe_GO-FAIR-Agro-Brazil_Jonquet.c8c5578f063b36f70016.pdf",
     "static/media/banner.png": "/static/media/banner.499b58798428dc821772.png",
     "static/media/Desdobramentos-implementacao-SBIAgro-2023.pdf": "/static/media/Desdobramentos-implementacao-SBIAgro-2023.b39e9bb996e14a5170c9.pdf",
+    "static/media/Planos-de-gestão-de-dados.pdf": "/static/media/Planos-de-gestão-de-dados.eba178564712cd7f8850.pdf",
     "static/media/oficina1.png": "/static/media/oficina1.08407907b8b9dac2a594.png",
     "static/media/oficina4.png": "/static/media/oficina4.ba6ff6bb3755ed61c95b.png",
     "static/media/oficina2.png": "/static/media/oficina2.9bd62a81e1266a9f042b.png",
@@ -13,6 +14,7 @@
     "static/media/logoUfrrj.png": "/static/media/logoUfrrj.a3faf1a536b116f17ef2.png",
     "static/media/oficina3.png": "/static/media/oficina3.ffe6328517594f451554.png",
     "static/media/post4.png": "/static/media/post4.6f59d2529f75162a2781.png",
+    "static/media/post5.png": "/static/media/post5.584a5b6b41b7f358af9d.png",
     "static/media/logoUfrj.png": "/static/media/logoUfrj.5609b7e55ff7f0b58817.png",
     "static/media/post1.png": "/static/media/post1.ddd092de3759949a8ba2.png",
     "static/media/logoEmbrepa.png": "/static/media/logoEmbrepa.f3ae1e723cd5d5a6e7ca.png",
@@ -25,11 +27,11 @@
     "static/media/logoFairAgro-noBG.png": "/static/media/logoFairAgro-noBG.3b095da9b1b81c0c7793.png",
     "static/media/miro.png": "/static/media/miro.2e56e5f108085c957156.png",
     "index.html": "/index.html",
-    "main.b18f05a5.css.map": "/static/css/main.b18f05a5.css.map",
-    "main.065c1415.js.map": "/static/js/main.065c1415.js.map"
+    "main.38560544.css.map": "/static/css/main.38560544.css.map",
+    "main.0060ca4c.js.map": "/static/js/main.0060ca4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b18f05a5.css",
-    "static/js/main.065c1415.js"
+    "static/css/main.38560544.css",
+    "static/js/main.0060ca4c.js"
   ]
 }
