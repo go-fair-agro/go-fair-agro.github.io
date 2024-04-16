@@ -14,14 +14,16 @@ export const News = () => {
                                 <Carousel.Caption>
                                     <div className="newCardDeck">
                                         <div className="newCard">
-                                            <h2>Palestra com Clement Jonquet: Agroportal - Repositório de Vocabulários e Ontologias para Agronomia</h2>
-                                            <p style={{marginTop: 0}}>Estão abertas as inscrições para a palestra "FAIR DATA requires FAIR ONTOLOGIES, how do we do?" ministrada pelo professor doutor Clement Jonquet na próxima terça-feira, dia 17 de outubro. Todos os interessados no tema de construção, organização, disponibilização e uso de ontologias poderão tirar proveito da fala do especialista francês que discutirá na sua palestra as questões relacionadas aos princípios FAIR e à construção e organização de ontologias, por meio da apresentação do AgroPortal e OntoPortal. A palestra é gratuita e será on-line, em inglês, somente para inscritos.</p>
-                                            {/* <a id="buttonGreenSmall" href="https://forms.gle/uY78KywEbQbnbAzc7">Inscreva-se</a> */}
+                                            <h2>Palestra com Ana Cristina Gomes Santana: O Papel dos Dados FAIR para o Desempenho Sustentável na Agricultura</h2>
+                                            <p style={{marginTop: 0}}>Não perca a palestra "O Papel dos Dados FAIR para o Desempenho Sustentável na Agricultura" ministrada pela professora Ana Cristina Gomes Santana da UFRA - Belém do Pará. Descubra como os dados FAIR estão transformando a agricultura para um futuro mais sustentável. A palestra será realizada online no dia 26 de abril.</p>
+                                            {/* <a id="buttonGreenSmall" href="link_da_inscricao">Inscreva-se</a> */}
                                         </div>
 
+
                                         <div className="newCard">
-                                            <h2>SBIAgro Aprova Nosso Trabalho: Desdobramentos da Rede GO FAIR Agro Brasil</h2>
-                                            <p style={{marginTop: 0}}>Grandes notícias! Nosso trabalho submetido ao SBIAgro, intitulado "Desdobramentos da Implementação da Rede GO FAIR Agro Brasil no Biênio 2021-2023", foi aprovado! Embora tenham sido solicitados pequenos ajustes, estamos ansiosos para finalizá-los. Estamos em contato com a organização do evento e conseguimos alocar 60 minutos no dia 8 de novembro, a partir das 15h, para apresentarmos nosso trabalho. Esta não será apenas uma apresentação em uma sessão técnica, mas sim uma sessão dedicada à Rede GO FAIR Agro Brasil. Fiquem ligados para mais atualizações!</p>
+                                            <h2>Palestra com Jorge Zavaleta: Criação de Planos de Gestão de Dados em Projetos de Ciência de Dados para Detecção de Fake News</h2>
+                                            <p style={{marginTop: 0}}>Não perca a palestra "Criação de Planos de Gestão de Dados em Projetos de Ciência de Dados para Detecção de Fake News" ministrada pelo professor Jorge Zavaleta da UERJ. Explore como os princípios FAIR estão sendo aplicados na luta contra as notícias falsas. A palestra será realizada online no dia 10 de maio.</p>
+                                            {/* <a id="buttonGreenSmall" href="link_da_inscricao">Inscreva-se</a> */}
                                         </div>
                                     </div>
                                 </Carousel.Caption>
@@ -34,13 +36,15 @@ export const News = () => {
                                 <Carousel.Caption>
                                     <div className="newCardDeck">
                                         <div className="newCard">
-                                            <h2>Sucesso no Workshop SmartFood: Análise de Redes Lexicais para Agricultura Digital</h2>
-                                            <p style={{marginTop: 0}}>Parabéns a todos! Nosso grupo de trabalho Ontologias teve mais uma conquista incrível. Um de nossos trabalhos foi aprovado no "Workshop on Controlled Vocabularies and Data platforms for Smart Food Systems (SmartFood)" com o título "Unveiling Knowledge Organization Systems' Artifacts for Digital Agriculture with Lexical Network Analysis". Isso demonstra nosso comprometimento com a pesquisa e a inovação em agricultura digital. Continuamos avançando e contribuindo para o desenvolvimento do campo. Parabéns a todos os envolvidos por mais essa realização!</p>
+                                            <h2>Palestra com Patrícia Bertin e Juliana Fonseca: O Processo de Construção da Política de Governança de Dados, Informação e Conhecimento da Embrapa</h2>
+                                            <p style={{marginTop: 0}}>Não perca a palestra "O Processo de Construção da Política de Governança de Dados, Informação e Conhecimento da Embrapa" ministrada por Patrícia Bertin e Juliana Fonseca. Explore como a Embrapa está desenvolvendo políticas de governança de dados. A palestra será realizada online no dia 24 de maio.</p>
+                                            {/* <a id="buttonGreenSmall" href="link_da_inscricao">Inscreva-se</a> */}
                                         </div>
 
                                         <div className="newCard">
-                                            <h2>Aniversário de 25 Anos da Scielo e Sessão Especial do GO FAIR Brasil</h2>
-                                            <p style={{marginTop: 0}}>Não poderíamos deixar passar em branco! Na próxima semana, celebraremos o aniversário de 25 anos da Scielo em São Paulo. Vale destacar que a Rede GO FAIR Brasil nasceu no aniversário de 20 anos da Scielo, e este ano não será diferente. Teremos uma sessão especial dedicada ao GO FAIR Brasil. Embora tenhamos sido informados em cima da hora e ainda não tenhamos todos os detalhes, parece que esta sessão será exclusiva para os participantes do evento e exigirá inscrição paga. </p>
+                                            <h2>Palestra com Maíra Murrieta: Diretrizes para uma Política de Gestão de Dados Científicos no Brasil</h2>
+                                            <p style={{marginTop: 0}}>Não perca a palestra "Diretrizes para uma Política de Gestão de Dados Científicos no Brasil" ministrada por Maíra Murrieta do MCT. Descubra as diretrizes para a gestão de dados científicos no Brasil. A palestra será realizada online no dia 07 de junho.</p>
+                                            {/* <a id="buttonGreenSmall" href="link_da_inscricao">Inscreva-se</a> */}
                                         </div>
                                     </div>
                                 </Carousel.Caption>
@@ -55,9 +59,9 @@ export const News = () => {
                                 <Carousel.Caption>
                                     <div className="newCardDeck">
                                         <div className="newCard">
-                                            <h2>Palestra com Clement Jonquet: Agroportal - Repositório de Vocabulários e Ontologias para Agronomia</h2>
-                                            <p style={{marginTop: 0}}>Estão abertas as inscrições para a palestra "FAIR DATA requires FAIR ONTOLOGIES, how do we do?" ministrada pelo professor doutor Clement Jonquet na próxima terça-feira, dia 17 de outubro. Todos os interessados no tema de construção, organização, disponibilização e uso de ontologias poderão tirar proveito da fala do especialista francês que discutirá na sua palestra as questões relacionadas aos princípios FAIR e à construção e organização de ontologias, por meio da apresentação do AgroPortal e OntoPortal. A palestra é gratuita e será on-line, em inglês, somente para inscritos.</p>
-                                            {/* <a id="buttonGreenSmall" href="https://forms.gle/uY78KywEbQbnbAzc7">Inscreva-se</a> */}
+                                            <h2>Palestra com Ana Cristina Gomes Santana: O Papel dos Dados FAIR para o Desempenho Sustentável na Agricultura</h2>
+                                            <p style={{marginTop: 0}}>Não perca a palestra "O Papel dos Dados FAIR para o Desempenho Sustentável na Agricultura" ministrada pela professora Ana Cristina Gomes Santana da UFRA - Belém do Pará. Descubra como os dados FAIR estão transformando a agricultura para um futuro mais sustentável. A palestra será realizada online no dia 26 de abril.</p>
+                                            {/* <a id="buttonGreenSmall" href="link_da_inscricao">Inscreva-se</a> */}
                                         </div>
                                     </div>
                                 </Carousel.Caption>
@@ -68,21 +72,9 @@ export const News = () => {
                                 <Carousel.Caption>
                                     <div className="newCardDeck">
                                         <div className="newCard">
-                                                <h2>SBIAgro Aprova Nosso Trabalho: Desdobramentos da Rede GO FAIR Agro Brasil</h2>
-                                                <p style={{marginTop: 0}}>Grandes notícias! Nosso trabalho submetido ao SBIAgro, intitulado "Desdobramentos da Implementação da Rede GO FAIR Agro Brasil no Biênio 2021-2023", foi aprovado! Embora tenham sido solicitados pequenos ajustes, estamos ansiosos para finalizá-los. Estamos em contato com a organização do evento e conseguimos alocar 60 minutos no dia 8 de novembro, a partir das 15h, para apresentarmos nosso trabalho. Esta não será apenas uma apresentação em uma sessão técnica, mas sim uma sessão dedicada à Rede GO FAIR Agro Brasil. Fiquem ligados para mais atualizações!</p>
-                                        </div>
-                                    </div>
-                                </Carousel.Caption>
-                            </div>
-                        </Carousel.Item>
-
-                        <Carousel.Item>
-                            <div className="postCarouselItem">
-                                <Carousel.Caption>
-                                    <div className="newCardDeck">
-                                        <div className="newCard">
-                                            <h2>Sucesso no Workshop SmartFood: Análise de Redes Lexicais para Agricultura Digital</h2>
-                                            <p style={{marginTop: 0}}>Parabéns a todos! Nosso grupo de trabalho Ontologias teve mais uma conquista incrível. Um de nossos trabalhos foi aprovado no "Workshop on Controlled Vocabularies and Data platforms for Smart Food Systems (SmartFood)" com o título "Unveiling Knowledge Organization Systems' Artifacts for Digital Agriculture with Lexical Network Analysis". Isso demonstra nosso comprometimento com a pesquisa e a inovação em agricultura digital. Continuamos avançando e contribuindo para o desenvolvimento do campo. Parabéns a todos os envolvidos por mais essa realização!</p>
+                                            <h2>Palestra com Jorge Zavaleta: Criação de Planos de Gestão de Dados em Projetos de Ciência de Dados para Detecção de Fake News</h2>
+                                            <p style={{marginTop: 0}}>Não perca a palestra "Criação de Planos de Gestão de Dados em Projetos de Ciência de Dados para Detecção de Fake News" ministrada pelo professor Jorge Zavaleta da UERJ. Explore como os princípios FAIR estão sendo aplicados na luta contra as notícias falsas. A palestra será realizada online no dia 10 de maio.</p>
+                                            {/* <a id="buttonGreenSmall" href="link_da_inscricao">Inscreva-se</a> */}
                                         </div>
                                     </div>
                                 </Carousel.Caption>
@@ -94,8 +86,23 @@ export const News = () => {
                                 <Carousel.Caption>
                                     <div className="newCardDeck">
                                         <div className="newCard">
-                                            <h2>Aniversário de 25 Anos da Scielo e Sessão Especial do GO FAIR Brasil</h2>
-                                            <p style={{marginTop: 0}}>Não poderíamos deixar passar em branco! Na próxima semana, celebraremos o aniversário de 25 anos da Scielo em São Paulo. Vale destacar que a Rede GO FAIR Brasil nasceu no aniversário de 20 anos da Scielo, e este ano não será diferente. Teremos uma sessão especial dedicada ao GO FAIR Brasil. Embora tenhamos sido informados em cima da hora e ainda não tenhamos todos os detalhes, parece que esta sessão será exclusiva para os participantes do evento e exigirá inscrição paga. </p>
+                                            <h2>Palestra com Patrícia Bertin e Juliana Fonseca: O Processo de Construção da Política de Governança de Dados, Informação e Conhecimento da Embrapa</h2>
+                                            <p style={{marginTop: 0}}>Não perca a palestra "O Processo de Construção da Política de Governança de Dados, Informação e Conhecimento da Embrapa" ministrada por Patrícia Bertin e Juliana Fonseca. Explore como a Embrapa está desenvolvendo políticas de governança de dados. A palestra será realizada online no dia 24 de maio.</p>
+                                            {/* <a id="buttonGreenSmall" href="link_da_inscricao">Inscreva-se</a> */}
+                                        </div>
+                                    </div>
+                                </Carousel.Caption>
+                            </div>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                            <div className="postCarouselItem">
+                                <Carousel.Caption>
+                                    <div className="newCardDeck">
+                                        <div className="newCard">
+                                            <h2>Palestra com Maíra Murrieta: Diretrizes para uma Política de Gestão de Dados Científicos no Brasil</h2>
+                                            <p style={{marginTop: 0}}>Não perca a palestra "Diretrizes para uma Política de Gestão de Dados Científicos no Brasil" ministrada por Maíra Murrieta do MCT. Descubra as diretrizes para a gestão de dados científicos no Brasil. A palestra será realizada online no dia 07 de junho.</p>
+                                            {/* <a id="buttonGreenSmall" href="link_da_inscricao">Inscreva-se</a> */}
                                         </div>
                                     </div>
                                 </Carousel.Caption>

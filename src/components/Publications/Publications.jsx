@@ -4,8 +4,10 @@ import logo from "../../assets/go-fair.png";
 import post1 from "../../assets/post1.png";
 import post2 from "../../assets/post3.png";
 import post3 from "../../assets/post4.png";
+import post5 from "../../assets/post5.png";
 import pdf  from "../../assets/digital_agriculture_with_lexical_network_analysis.pdf";
 import pdf2  from "../../assets/Desdobramentos-implementacao-SBIAgro-2023.pdf";
+import pdf3  from "../../assets/Planos-de-gestão-de-dados.pdf";
 
 export const Publications = () => {
     return (
@@ -39,6 +41,13 @@ export const Publications = () => {
                         <h2>Desdobramentos da Implementação da Rede GO FAIR Agro Brasil no Biênio 2021-2023.</h2>
                         <p style={{marginTop: 0}}>Este trabalho tem o objetivo de apresentar para a comunidade brasileira os trabalhos desenvolvidos no biênio 2021-2023 para a implantação da Rede de Implementação Temática GO FAIR Agro Brasil. São destacadas as ações interinstitucionais promovidas para disseminar conhecimentos sobre o compartilhamento e o reúso de dados de pesquisa em ciências agrárias apoiados nos princípios FAIR.</p>
                         <a id="buttonGreen"  href={pdf2} download="Desdobramentos da Implementação da Rede GO FAIR Agro Brasil no Biênio 2021-2023">Ler publicação</a>
+                    </div>
+
+                    <div className="postCard">
+                        <img style={{width: "50%", alignSelf: "center"}} src={post5} alt="postImage" />
+                        <h2>Planos de gestão de dados acionáveis por máquina alinhados aos princípios FAIR para o Laboratório Multiusuário de Bioinformática da Embrapa.</h2>
+                        <p style={{marginTop: 0}}>Esta publicação traz uma contribuição efetiva para comunidade de dados ômicos da Embrapa ao apresentar modelos de planos de gestão de dados acionáveis por máquina, alinhados aos princípios FAIR, desenvolvidos pelo Laboratório Multiusuário de Bioinformática da Embrapa.</p>
+                        <a id="buttonGreen"  href={pdf3} download="Planos de gestão de dados acionáveis por máquina alinhados aos princípios FAIR para o Laboratório Multiusuário de Bioinformática da Embrapa">Ler publicação</a>
                     </div>
                 </div>
         </div>
