@@ -3,11 +3,9 @@ import oficina1 from "../../assets/oficina1.png";
 import oficina2 from "../../assets/oficina2.png";
 import oficina3 from "../../assets/oficina3.png";
 import oficina4 from "../../assets/oficina4.png";
-import oficina5 from "../../assets/oficina4.jpeg";
 import ytb from "../../assets/ytb.png";
 import miro from "../../assets/miro.png";
 import pdf from "../../assets/download.png";
-import pdf2 from "../../assets/23-10-17_OFAIRe_GO-FAIR-Agro-Brazil_Jonquet.pdf";
 
 
 import "./cycle.css";
@@ -24,15 +22,15 @@ export const Cycle = () => {
                         <img src={oficina1} alt="" />
                         <p>Acesse o material:</p>
                         <div className="cardDeckLinks">
-                            <a href="https://www.youtube.com/watch?v=OyNUByzgP4A">
+                            <a target="blank" href="https://www.youtube.com/watch?v=OyNUByzgP4A">
                                 <img id="linkYtb" src={ytb} alt="" />
                                 <p>Youtube</p>
                             </a>
-                            <a href="https://miro.com/app/board/uXjVPfr9Uw4=/">
+                            <a target="blank" href="https://miro.com/app/board/uXjVPfr9Uw4=/">
                                 <img id="linkMiro"  src={miro} alt="" />
                                 <p>Miro</p>
                             </a>
-                            <a href="https://drive.google.com/file/d/17ZJ2bnJst_LMiQOD4TvzuDuEnSRKTyKp/view?usp=share_link">
+                            <a target="blank" href="https://drive.google.com/file/d/17ZJ2bnJst_LMiQOD4TvzuDuEnSRKTyKp/view?usp=share_link">
                                 <img id="linkPDF"  src={pdf} alt="" />
                                 <p>PDF</p>
                             </a>
@@ -43,15 +41,15 @@ export const Cycle = () => {
                         <img src={oficina2} alt="" />
                         <p>Acesse o material:</p>
                         <div className="cardDeckLinks">
-                            <a href="https://www.youtube.com/watch?v=QmvO9zk-vPs">
+                            <a target="blank" href="https://www.youtube.com/watch?v=QmvO9zk-vPs">
                                 <img id="linkYtb" src={ytb} alt="" />
                                 <p>Youtube</p>
                             </a>
-                            <a href="https://miro.com/app/board/uXjVPfr9Uw4=/">
+                            <a target="blank" href="https://miro.com/app/board/uXjVPfr9Uw4=/">
                                 <img id="linkMiro"  src={miro} alt="" />
                                 <p>Miro</p>
                             </a>
-                            <a href="https://drive.google.com/file/d/1xNgCyOL1FiqyKQrxXADMEipAjuj6vtSA/view?usp=share_link">
+                            <a target="blank" href="https://drive.google.com/file/d/1xNgCyOL1FiqyKQrxXADMEipAjuj6vtSA/view?usp=share_link">
                                 <img id="linkPDF"  src={pdf} alt="" />
                                 <p>PDF</p>
                             </a>
@@ -63,15 +61,15 @@ export const Cycle = () => {
                         <img src={oficina3} alt="" />
                         <p>Acesse o material:</p>
                         <div className="cardDeckLinks">
-                            <a href="https://www.youtube.com/watch?v=B_NbXSJWxgc">
+                            <a target="blank" href="https://www.youtube.com/watch?v=B_NbXSJWxgc">
                                 <img id="linkYtb" src={ytb} alt="" />
                                 <p>Youtube</p>
                             </a>
-                            <a href="https://miro.com/app/board/uXjVPdTesSE=/">
+                            <a target="blank" href="https://miro.com/app/board/uXjVPdTesSE=/">
                                 <img id="linkMiro"  src={miro} alt="" />
                                 <p>Miro</p>
                             </a>
-                            <a href="https://drive.google.com/file/d/1BfPt-6VSzO_iP18-armDZCPduSc1nSRI/view?usp=share_link">
+                            <a target="blank" href="https://drive.google.com/file/d/1BfPt-6VSzO_iP18-armDZCPduSc1nSRI/view?usp=share_link">
                                 <img id="linkPDF"  src={pdf} alt="" />
                                 <p>PDF</p>
                             </a>
@@ -82,30 +80,11 @@ export const Cycle = () => {
                         <img src={oficina4} alt="" />
                         <p>Acesse o material:</p>
                         <div className="cardDeckLinks">
-                            <a href="https://miro.com/app/board/uXjVPdTesSE=/">
+                            <a target="blank" href="https://miro.com/app/board/uXjVPdTesSE=/">
                                 <img id="linkMiro"  src={miro} alt="" />
                                 <p>Miro</p>
                             </a>
-                            <a href="https://drive.google.com/file/d/1CIDrdIsyWbeqG3VxrlyBoZOOB1SZNJuz/view?usp=share_link">
-                                <img id="linkPDF"  src={pdf} alt="" />
-                                <p>PDF</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <hr style={{width: "100%", border: "3px solid #E3BC26", opacity: 1.0}}/>
-                <h1>Novas apresentações</h1>
-                <div className="cycleOficinasDeck">
-                <div className="cycleCard">
-                        <p id="cycleCardTitle">Palestra com Clement Jonquet: Agroportal - Repositório de Vocabulários e Ontologias para Agronomia (2023)</p>
-                        <img src={oficina5} alt="" />
-                        <p>Acesse o material:</p>
-                        <div className="cardDeckLinks">
-                            <a href="https://youtu.be/PT9LWAom5qw">
-                                <img id="linkYtb" src={ytb} alt="" />
-                                <p>Youtube</p>
-                            </a>
-                            <a href={pdf2} download>
+                            <a target="blank" href="https://drive.google.com/file/d/1CIDrdIsyWbeqG3VxrlyBoZOOB1SZNJuz/view?usp=share_link">
                                 <img id="linkPDF"  src={pdf} alt="" />
                                 <p>PDF</p>
                             </a>

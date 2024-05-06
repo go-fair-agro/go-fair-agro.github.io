@@ -11,6 +11,7 @@ import banner from "./assets/banner.png";
 import { News } from './components/News/News';
 import { Cycle } from './components/Cycle/Cycle.jsx';
 import { Publications } from './components/Publications/Publications.jsx';
+import { Lecture } from './components/Lecture/Lecture.jsx';
 
 export const Home = () => {
   return (
@@ -22,10 +23,11 @@ export const Home = () => {
       <Text/>
       <Manifest/>
       <AboutUs/>
-      <Implementation/>
+      <Lecture/>
       <News/>
       <Cycle/>
       <Publications/>
+      <Implementation/>
       <Coordination/>
       <Contact/>
       <Footer/>

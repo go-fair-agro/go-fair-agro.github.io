@@ -17,9 +17,10 @@ export const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
               <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} onClick={() => handleClick("Rede")}>Sobre</Nav.Link>
+              <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} onClick={() => handleClick("Palestras")}>Palestras</Nav.Link>
               <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} onClick={() => handleClick("Novidades")}>Novidades</Nav.Link>
-              <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} onClick={() => handleClick("Oficinas")}>Oficinas</Nav.Link>
               <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} onClick={() => handleClick("Publicações")}>Publicações</Nav.Link>
+              <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} onClick={() => handleClick("Oficinas")}>Oficinas</Nav.Link>
               <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} onClick={() => handleClick("contactContainer")}>Contato</Nav.Link>
           </Nav>
         </Navbar.Collapse>
