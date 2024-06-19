@@ -66,6 +66,17 @@ export const Lecture = () => {
                             </a>
                         </div>
                     </div>
+                    
+                    
+
+                    <div id="palestraCard">
+                        <p style={{color: "#2D6D2C"}} id="cycleCardTitle">Clique nos links abaixo para conferir mais palestras:</p>
+                        <a target="blank" href="https://drive.google.com/file/d/1eAwKKLoillH0BnFzQC2y5leC-DbwFa2n/view?usp=sharing" id="linkPalestras">O Processo de Construção da Política de Governança de Dados, Informação e Conhecimento da Embrapa</a>
+                        <a target="blank" href="https://drive.google.com/file/d/1Re3OZHgJXrEnhyek0coG1mAYaKlmiUAk/view?usp=sharing" id="linkPalestras">Plataformas para Criação de Planos de Gestão de Dados Usando os Princípios FAIR</a>
+                        <a target="blank" href="https://drive.google.com/file/d/1i5FkAPpVD9baQkUThxNB0yCRMs2IjlvN/view?usp=sharing" id="linkPalestras">Planos de Gestão de Dados Acionáveis por Máquina Alinhados aos Princípios FAIR no LMB da Embrapa </a>
+                        <a target="blank" href="https://drive.google.com/file/d/1Zitce4YNc0_OUYiYxtEQ16RIyqui0v9W/view?usp=sharing" id="linkPalestras">Gestão de Dados Científicos: Desafios e Estratégias</a>
+                    </div>
+
                 </div>
             </div>
         </div>

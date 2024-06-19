@@ -22,6 +22,8 @@ export const Header = () => {
               <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} onClick={() => handleClick("Publicações")}>Publicações</Nav.Link>
               <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} onClick={() => handleClick("Oficinas")}>Oficinas</Nav.Link>
               <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} onClick={() => handleClick("contactContainer")}>Contato</Nav.Link>
+              <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} href="/">Questionário</Nav.Link>
+              <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} href="#/grupos_de_trabalho">Grupos de trabalho</Nav.Link>
           </Nav>
         </Navbar.Collapse>
     </Navbar>

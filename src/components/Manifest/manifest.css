@@ -1,3 +1,38 @@
+.questionarioContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #DCBD3E;
+    padding: 5%;
+    align-items: right;
+}
+
+.questionarioContainer a{
+    align-self: first baseline!important;
+}
+
+.questionarioContainer h2{
+    font-family: 'Saira';
+    float: left;
+    text-align: left;   
+    font-size: 55px;
+    margin-right: 50px;
+    font-style: normal;
+    font-weight: 700;
+    color: #000E8E;
+}
+
+.questionarioContainer p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
 .manifestContainer{
     display: flex;
     flex-direction: column;
@@ -70,7 +105,7 @@
     color: #FFFFFF;
     padding-left: 4%;
 
-    margin-top: -10px;
+    margin-top: 5px;
 }
 
 #manifestDescription{
@@ -101,7 +136,9 @@
 
     .manifestContainer a{
         margin-bottom: 20px;
-        font-size: 18px;
+        font-size: 17px !important;
+        align-self: center!important;
+        margin-right: 0px!important;
     }
     
 
@@ -128,9 +165,29 @@
         padding-top: 6%;
     }
 
-    .manifestContainer a{
+
+
+    .questionarioContainer{
+        padding-top: 6%;
+    }
+    
+    .questionarioContainer a{
+        margin-bottom: 20px;
+        font-size: 17px !important;
         align-self: center!important;
-        margin-right: 0px!important;
+    }
+    
+    .questionarioContainer h2{
+        font-size: 40px;
+        margin-right: 0px;
+        text-align: center;
+    }
+    
+    .questionarioContainer p {
+        text-align: justify;
+        margin-right: 0px;
+        padding: 0% 4%;
+        font-size: 18px;
     }
 
 }

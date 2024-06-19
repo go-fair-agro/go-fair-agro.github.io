@@ -4,6 +4,7 @@ import unipampa from "../../assets/logoUnipampa.jpg";
 import ufrrj from "../../assets/logoUfrrj.png";
 import usp from "../../assets/logoUsp.png";
 import ufrj from "../../assets/logoUfrj.png";
+import mctic from "../../assets/logoMCTIC.jpeg"
 
 export const Coordination = () =>{
     return (
@@ -24,6 +25,9 @@ export const Coordination = () =>{
                 </a>
                 <a href="https://portal.ufrrj.br/">
                     <img id="ufrrj" src={ufrrj} alt="logo ufrrj" />
+                </a>
+                <a href="https://www.gov.br/mcti/pt-br/">
+                    <img id="mctic" src={mctic} alt="logo Ministério da Ciência, Tecnologia e Inovação" />
                 </a>
             </div>
             <p>A Rede GO-FAIR Agro Brasil é coordenada pela Empresa Brasileira de Pesquisa Agropecuária (Embrapa) em gestão colegiada com a Universidade Federal Rural do Rio de Janeiro (UFRRJ), a Universidade de São Paulo (USP), a Universidade Federal do Pampa (Unipampa) e a Universidade Federal do Rio de Janeiro (UFRJ) com a possibilidade de ampliação de acordo com o engajamento de outras instituições e organizações.</p>
