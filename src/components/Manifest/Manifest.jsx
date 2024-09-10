@@ -8,7 +8,7 @@ export const Manifest = () => {
         <div className="questionarioContainer">
             <h2>Pesquisa em Dados Agropecuários</h2>
             <p>Esta pesquisa é uma iniciativa do GO FAIR Agro Brasil para identificar como ocorre a coleta, tratamento e armazenamento de dados na pesquisa agropecuária. A partir do resultado do survey teremos um diagnóstico das práticas de gestão de dados adotadas pelos pesquisadores. Este diagnóstico subsidiará a construção de diretrizes para o compartilhamento e reúso de dados entre as instituições agropecuárias</p>
-            <a id="buttonDefault" href="/">Questionário GO FAIR Agro</a>
+            <a id="buttonDefault" href="https://formularios.mcti.gov.br/index.php/776924?newtest=Y&lang=pt-BR">Questionário GO FAIR Agro</a>
         </div>
         <div className="manifestContainer">
                 <h3>SOBRE O</h3>
