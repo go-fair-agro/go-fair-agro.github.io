@@ -18,7 +18,7 @@ export const AboutUs = () => {
                 <h2>NOSSA MISSÃO</h2>
                 <p>A missão da Rede GO-FAIR Brasil Agro consiste em trabalhar de modo articulado e colaborativo para fomentar o compartilhamento e reuso dos dados produzidos no âmbito dos sistemas produtivos agropecuários e também aqueles oriundos de pesquisas em ciências agrárias, bem como a adoção dos princípios FAIR. </p>
                 <p>Entre em nossa lista de discussão para para compartilhamento de informes, referências, eventos e outros assuntos de interesse da Rede GO FAIR Agro Brasil.</p>
-                <a id="buttonGreen" href="https://listas.rnp.br/mailman/listinfo/gofairbr-agro">Inscreva-se</a>
+                <a id="buttonGreen" target="blank" href="https://listas.rnp.br/mailman/listinfo/gofairbr-agro">Inscreva-se</a>
             </div>
         </div>
     );
