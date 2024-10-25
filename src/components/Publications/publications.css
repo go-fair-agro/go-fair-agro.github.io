@@ -45,15 +45,7 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 900px){
-    
 
-    .postContainer h1{
-        font-size: 40px;
-    }
-
-    .postContainer h2{
-        font-size: 25px;
-    }
     
     .postCard p{
         font-size: 18px;   
