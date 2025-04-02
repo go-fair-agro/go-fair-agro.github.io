@@ -1,5 +1,5 @@
 import React from "react";
-import pdf from "../../assets/23-10-17_OFAIRe_GO-FAIR-Agro-Brazil_Jonquet.pdf";
+import pdf from "../../assets/GO_FAIR_Agro_2024.pdf";
 import "./news.css";
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -12,15 +12,22 @@ export const News = () => {
                     <Carousel.Item>
                         <div className="postCarouselItem">
                             <Carousel.Caption>
+
                                 <div className="newCardDeck">
 
-                                    <div className="newCard" style={{width: "100%", justifyContent: "space-evenly"}}>
+                                    <div className="newCard">
+                                        <h2>Resumo das Ações Realizadas pela Rede GO FAIR Agro Brasil em 2024</h2>
+                                        <p style={{ marginTop: 0 }}>A Rede GO FAIR Agro Brasil apresentou suas principais ações ao longo de 2024 em diversos eventos. Confira o resumo completo das atividades realizadas pelos Grupos de Trabalho e as apresentações feitas em eventos importantes.</p>
+                                        <a href={pdf} download id="buttonGreenSmall" >Saiba mais</a>
+                                    </div>
+
+                                    <div className="newCard">
                                         <h2>Apresentação da Rede GO FAIR Agro Brasil na 38ª Reunião da CBAPD</h2>
                                         <p style={{ marginTop: 0 }}>Na quarta-feira, 16 de outubro de 2024, Sylvia Christina Sanchez, da Brasscom, apresentou o Plano Brasil Digital 2030+ durante a 38ª Reunião Ordinária da Comissão Brasileira de Agricultura de Precisão e Digital (CBAPD). O evento contou com a presença de Sergio Sgobbi e Alexandre Conceição e foi conduzido por Christian Bredemeier. Débora Drucker, da EMBRAPA Agricultura Digital, destacou a Rede GO FAIR Agro Brasil, ressaltando sua importância na agricultura digital. O plano, desenvolvido em colaboração com vários setores, visa acelerar a transformação digital no país.</p>
                                         <a id="buttonGreenSmall" href=" https://www.linkedin.com/posts/brasscom_paratodosverem-brasscom-macrossetordetic-activity-7254239901196451840-MkL9/?utm_source=share&utm_medium=member_desktop">Saiba mais</a>
                                     </div>
-
                                 </div>
+
                             </Carousel.Caption>
                         </div>
 
@@ -48,6 +55,22 @@ export const News = () => {
             </div>
             <div className="postCarouselMobile">
                 <Carousel data-bs-theme="dark">
+
+
+                    <Carousel.Item>
+                        <div className="postCarouselItem">
+                            <Carousel.Caption>
+                                <div className="newCardDeck">
+                                    <div className="newCard">
+                                        <h2>Resumo das Ações Realizadas pela Rede GO FAIR Agro Brasil em 2024</h2>
+                                        <p style={{ marginTop: 0 }}>A Rede GO FAIR Agro Brasil apresentou suas principais ações ao longo de 2024 em diversos eventos. Confira o resumo completo das atividades realizadas pelos Grupos de Trabalho e as apresentações feitas em eventos importantes.</p>
+                                        <a href={pdf} download id="buttonGreenSmall" >Saiba mais</a>
+                                    </div>
+
+                                </div>
+                            </Carousel.Caption>
+                        </div>
+                    </Carousel.Item>
 
                     <Carousel.Item>
                         <div className="postCarouselItem">
