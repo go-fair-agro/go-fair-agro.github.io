@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.35018b93.css",
-    "main.js": "/static/js/main.597c6c0c.js",
+    "main.css": "/static/css/main.4400e91f.css",
+    "main.js": "/static/js/main.6a8b5720.js",
     "static/media/digital_agriculture_with_lexical_network_analysis.pdf": "/static/media/digital_agriculture_with_lexical_network_analysis.4e4352f5801edb3c4244.pdf",
     "static/media/24-04-24_Embrapa_OntoPortal_Jonquet.pdf": "/static/media/24-04-24_Embrapa_OntoPortal_Jonquet.4efbadd906a32d3c28b8.pdf",
     "static/media/23-10-17_OFAIRe_GO-FAIR-Agro-Brazil_Jonquet.pdf": "/static/media/23-10-17_OFAIRe_GO-FAIR-Agro-Brazil_Jonquet.c8c5578f063b36f70016.pdf",
@@ -22,6 +22,7 @@
     "static/media/post4.png": "/static/media/post4.6f59d2529f75162a2781.png",
     "static/media/post5.png": "/static/media/post5.584a5b6b41b7f358af9d.png",
     "static/media/logoUfrj.png": "/static/media/logoUfrj.5609b7e55ff7f0b58817.png",
+    "static/media/GO_FAIR_Agro_2024.pdf": "/static/media/GO_FAIR_Agro_2024.2c2a60f268811f68201b.pdf",
     "static/media/post1.png": "/static/media/post1.ddd092de3759949a8ba2.png",
     "static/media/logoEmbrepa.png": "/static/media/logoEmbrepa.f3ae1e723cd5d5a6e7ca.png",
     "static/media/logoUsp.png": "/static/media/logoUsp.4c40323e5f7b14b0281b.png",
@@ -34,11 +35,11 @@
     "static/media/logoMCTIC.jpeg": "/static/media/logoMCTIC.16d171fb0e3043656112.jpeg",
     "static/media/miro.png": "/static/media/miro.2e56e5f108085c957156.png",
     "index.html": "/index.html",
-    "main.35018b93.css.map": "/static/css/main.35018b93.css.map",
-    "main.597c6c0c.js.map": "/static/js/main.597c6c0c.js.map"
+    "main.4400e91f.css.map": "/static/css/main.4400e91f.css.map",
+    "main.6a8b5720.js.map": "/static/js/main.6a8b5720.js.map"
   },
   "entrypoints": [
-    "static/css/main.35018b93.css",
-    "static/js/main.597c6c0c.js"
+    "static/css/main.4400e91f.css",
+    "static/js/main.6a8b5720.js"
   ]
 }
