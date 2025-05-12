@@ -16,9 +16,9 @@ export const HeaderGroups = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-              <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} onClick={() => handleClick("Rede")}>GT Dados</Nav.Link>
-              <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} onClick={() => handleClick("Novidades")}>GT Políticas</Nav.Link>
-              <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}} onClick={() => handleClick("Oficinas")}>GT Ontologias</Nav.Link>
+              <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}}>GT Dados</Nav.Link>
+              <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}}>GT Políticas</Nav.Link>
+              <Nav.Link id="navBarLink" style={{color: "#2D6D2C"}}>GT Ontologias</Nav.Link>
           </Nav>
         </Navbar.Collapse>
     </Navbar>

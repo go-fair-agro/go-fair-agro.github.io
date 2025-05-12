@@ -2,6 +2,7 @@ import palestra1 from "../../assets/palestra1.jpeg";
 import palestra2 from "../../assets/palestra2.png";
 import palestra3 from "../../assets/palestra3.png";
 import palestra4 from "../../assets/palestra4.png";
+import palestra5 from "../../assets/palestra5.png";
 
 import ytb from "../../assets/ytb.png";
 import pdfPng from "../../assets/download.png";
@@ -9,6 +10,8 @@ import pdf1 from "../../assets/23-10-17_OFAIRe_GO-FAIR-Agro-Brazil_Jonquet.pdf";
 import pdf2 from "../../assets/PalestraEmbrapa-Fernanda-Farinelli.pdf";
 import pdf3 from "../../assets/24-04-24_Embrapa_OntoPortal_Jonquet.pdf";
 import pdf4 from "../../assets/2024-10-17-Tools_to_characterize_FAIR_and_measure_FAIRness.pdf";
+import pdf5 from "../../assets/esquemas_de_metadados_fair.pdf";
+
 
 
 
@@ -20,6 +23,22 @@ export const Lecture = () => {
             <h1>Palestras</h1>
             <div className="cycleOficinasContainer">
                 <div className="cycleOficinasDeck">
+
+                <div className="cycleCard">
+                        <p id="cycleCardTitle">Palestra com Filipi Miranda Soares: Esquemas de Metadados FAIR, fundamentos e aplicações (2025)</p>
+                        <img src={palestra5}  alt="" />
+                        <p>Acesse o material:</p>
+                        <div className="cardDeckLinks">
+                            <a target="blank" href="https://www.youtube.com/watch?v=8_dkfFHV0JE">
+                                <img id="linkYtb" src={ytb} alt="" />
+                                <p>Youtube</p>
+                            </a>
+                            <a href={pdf5}  download>
+                                <img id="linkPDF" src={pdfPng} alt="" />
+                                <p>PDF</p>
+                            </a>
+                        </div>
+                    </div>
 
                     <div className="cycleCard">
                         <p id="cycleCardTitle">Palestra com Leonardo Guerreiro Azevedo: Ferramentas para caracterizar e medir a adequação aos princípios FAIR (2024)</p>

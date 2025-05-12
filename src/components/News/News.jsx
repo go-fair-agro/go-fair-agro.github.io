@@ -15,24 +15,29 @@ export const News = () => {
 
                                 <div className="newCardDeck">
 
+                                <div className="newCard">
+                                        <h2>Inscreva-se já: Programação Especial de Maio sobre Princípios FAIR</h2>
+                                        <p style={{ marginTop: 0 }}>
+                                            A Rede GO FAIR Agro Brasil promove encontros on-line sobre a aplicação prática dos princípios FAIR em dados. Participe do seminário sobre esquemas de metadados com Filipi Soares (09/05) e da mesa-redonda sobre ontologias com Mara Abel e Patrícia Silva (15/05). Evento gratuito e aberto!
+                                        </p>
+                                        <a id="buttonGreenSmall" href="https://forms.gle/5nfTE8p5UcWm9KQ97" target="_blank" rel="noopener noreferrer">Inscreva-se</a>
+                                        <p id="dateNews"><strong>30/04/2025</strong></p>
+                                    </div>
+
                                     <div className="newCard">
                                         <h2>Resumo das Ações Realizadas pela Rede GO FAIR Agro Brasil em 2024</h2>
                                         <p style={{ marginTop: 0 }}>A Rede GO FAIR Agro Brasil apresentou suas principais ações ao longo de 2024 em diversos eventos. Confira o resumo completo das atividades realizadas pelos Grupos de Trabalho e as apresentações feitas em eventos importantes.</p>
                                         <a href={pdf} download id="buttonGreenSmall" >Saiba mais</a>
+                                        <p id="dateNews"><strong>02/04/2025</strong></p>
                                     </div>
-
-                                    <div className="newCard">
-                                        <h2>Apresentação da Rede GO FAIR Agro Brasil na 38ª Reunião da CBAPD</h2>
-                                        <p style={{ marginTop: 0 }}>Na quarta-feira, 16 de outubro de 2024, Sylvia Christina Sanchez, da Brasscom, apresentou o Plano Brasil Digital 2030+ durante a 38ª Reunião Ordinária da Comissão Brasileira de Agricultura de Precisão e Digital (CBAPD). O evento contou com a presença de Sergio Sgobbi e Alexandre Conceição e foi conduzido por Christian Bredemeier. Débora Drucker, da EMBRAPA Agricultura Digital, destacou a Rede GO FAIR Agro Brasil, ressaltando sua importância na agricultura digital. O plano, desenvolvido em colaboração com vários setores, visa acelerar a transformação digital no país.</p>
-                                        <a id="buttonGreenSmall" href=" https://www.linkedin.com/posts/brasscom_paratodosverem-brasscom-macrossetordetic-activity-7254239901196451840-MkL9/?utm_source=share&utm_medium=member_desktop">Saiba mais</a>
-                                    </div>
+    
                                 </div>
 
                             </Carousel.Caption>
                         </div>
 
                     </Carousel.Item>
-
+                    {/* 
                     <Carousel.Item>
                         <div className="postCarouselItem">
                             <Carousel.Caption>
@@ -50,12 +55,29 @@ export const News = () => {
                                 </div>
                             </Carousel.Caption>
                         </div>
-                    </Carousel.Item>
+                    </Carousel.Item> */}
                 </Carousel>
             </div>
             <div className="postCarouselMobile">
                 <Carousel data-bs-theme="dark">
 
+                    <Carousel.Item>
+                        <div className="postCarouselItem">
+                            <Carousel.Caption>
+                                <div className="newCardDeck">
+                                    <div className="newCard">
+                                        <h2>Inscreva-se já: Programação Especial de Maio sobre Princípios FAIR</h2>
+                                        <p style={{ marginTop: 0 }}>
+                                            A Rede GO FAIR Agro Brasil promove encontros on-line sobre a aplicação prática dos princípios FAIR em dados. Participe do seminário sobre esquemas de metadados com Filipi Soares (09/05) e da mesa-redonda sobre ontologias com Mara Abel e Patrícia Silva (15/05). Evento gratuito e aberto!
+                                        </p>
+                                        <a id="buttonGreenSmall" href="https://forms.gle/5nfTE8p5UcWm9KQ97" target="_blank" rel="noopener noreferrer">Inscreva-se</a>
+                                        <p id="dateNews"><strong>30/04/2025</strong></p>
+                                    </div>
+                                </div>
+                            </Carousel.Caption>
+                        </div>
+                    </Carousel.Item>
+
 
                     <Carousel.Item>
                         <div className="postCarouselItem">
@@ -65,6 +87,7 @@ export const News = () => {
                                         <h2>Resumo das Ações Realizadas pela Rede GO FAIR Agro Brasil em 2024</h2>
                                         <p style={{ marginTop: 0 }}>A Rede GO FAIR Agro Brasil apresentou suas principais ações ao longo de 2024 em diversos eventos. Confira o resumo completo das atividades realizadas pelos Grupos de Trabalho e as apresentações feitas em eventos importantes.</p>
                                         <a href={pdf} download id="buttonGreenSmall" >Saiba mais</a>
+                                        <p id="dateNews"><strong>02/04/2025</strong></p>
                                     </div>
 
                                 </div>
@@ -72,22 +95,8 @@ export const News = () => {
                         </div>
                     </Carousel.Item>
 
-                    <Carousel.Item>
-                        <div className="postCarouselItem">
-                            <Carousel.Caption>
-                                <div className="newCardDeck">
-                                    <div className="newCard">
-                                        <h2>Apresentação da Rede GO FAIR Agro Brasil na 38ª Reunião da CBAPD</h2>
-                                        <p style={{ marginTop: 0 }}>Na quarta-feira, 16 de outubro de 2024, Sylvia Christina Sanchez, da Brasscom, apresentou o Plano Brasil Digital 2030+ durante a 38ª Reunião Ordinária da Comissão Brasileira de Agricultura de Precisão e Digital (CBAPD). O evento contou com a presença de Sergio Sgobbi e Alexandre Conceição e foi conduzido por Christian Bredemeier. Débora Drucker, da EMBRAPA Agricultura Digital, destacou a Rede GO FAIR Agro Brasil, ressaltando sua importância na agricultura digital. O plano, desenvolvido em colaboração com vários setores, visa acelerar a transformação digital no país.</p>
-                                        <a id="buttonGreenSmall" href=" https://www.linkedin.com/posts/brasscom_paratodosverem-brasscom-macrossetordetic-activity-7254239901196451840-MkL9/?utm_source=share&utm_medium=member_desktop">Saiba mais</a>
-                                    </div>
-                                </div>
-                            </Carousel.Caption>
-                        </div>
-                    </Carousel.Item>
 
-
-                    <Carousel.Item>
+                    {/* <Carousel.Item>
                         <div className="postCarouselItem">
                             <Carousel.Caption>
                                 <div className="newCardDeck">
@@ -111,7 +120,7 @@ export const News = () => {
                                 </div>
                             </Carousel.Caption>
                         </div>
-                    </Carousel.Item>
+                    </Carousel.Item> */}
                 </Carousel>
             </div>
         </div>

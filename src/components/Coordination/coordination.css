@@ -22,11 +22,11 @@
 }
 
 #embrapa{
-    width:100%;
+    width:90%;
 }
 
 #unipampa{
-    width: 90%;
+    width: 80%;
 }
 
 #ufrrj{
@@ -34,22 +34,22 @@
 }
 
 #usp{
-    width: 60%;
+    width: 50%;
 }
 
 #ufrj{
-    width: 80%;
+    width: 70%;
 }
 
 #mctic{
-    width: 60%;
+    width: 50%;
 }
 
 .coordinationContainer h1{
     font-family: 'Scada';
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
     color: #2D6D2C;
 }
