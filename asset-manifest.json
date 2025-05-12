@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c86070f2.css",
-    "main.js": "/static/js/main.b47f7557.js",
+    "main.js": "/static/js/main.c658e6d4.js",
     "static/media/digital_agriculture_with_lexical_network_analysis.pdf": "/static/media/digital_agriculture_with_lexical_network_analysis.4e4352f5801edb3c4244.pdf",
     "static/media/24-04-24_Embrapa_OntoPortal_Jonquet.pdf": "/static/media/24-04-24_Embrapa_OntoPortal_Jonquet.4efbadd906a32d3c28b8.pdf",
     "static/media/23-10-17_OFAIRe_GO-FAIR-Agro-Brazil_Jonquet.pdf": "/static/media/23-10-17_OFAIRe_GO-FAIR-Agro-Brazil_Jonquet.c8c5578f063b36f70016.pdf",
@@ -37,10 +37,10 @@
     "static/media/miro.png": "/static/media/miro.2e56e5f108085c957156.png",
     "index.html": "/index.html",
     "main.c86070f2.css.map": "/static/css/main.c86070f2.css.map",
-    "main.b47f7557.js.map": "/static/js/main.b47f7557.js.map"
+    "main.c658e6d4.js.map": "/static/js/main.c658e6d4.js.map"
   },
   "entrypoints": [
     "static/css/main.c86070f2.css",
-    "static/js/main.b47f7557.js"
+    "static/js/main.c658e6d4.js"
   ]
 }
