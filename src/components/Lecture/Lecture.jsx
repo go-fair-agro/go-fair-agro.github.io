@@ -3,6 +3,8 @@ import palestra2 from "../../assets/palestra2.png";
 import palestra3 from "../../assets/palestra3.png";
 import palestra4 from "../../assets/palestra4.png";
 import palestra5 from "../../assets/palestra5.png";
+import palestra6 from "../../assets/mesa_redonda_ontologias.png";
+
 
 import ytb from "../../assets/ytb.png";
 import pdfPng from "../../assets/download.png";
@@ -11,7 +13,9 @@ import pdf2 from "../../assets/PalestraEmbrapa-Fernanda-Farinelli.pdf";
 import pdf3 from "../../assets/24-04-24_Embrapa_OntoPortal_Jonquet.pdf";
 import pdf4 from "../../assets/2024-10-17-Tools_to_characterize_FAIR_and_measure_FAIRness.pdf";
 import pdf5 from "../../assets/esquemas_de_metadados_fair.pdf";
+import pdf6 from "../../assets/mesa_redonda_ontologias.pdf";
 
+// import pdf5 from "../../assets/esquemas_de_metadados_fair.pdf";
 
 
 
@@ -24,16 +28,33 @@ export const Lecture = () => {
             <div className="cycleOficinasContainer">
                 <div className="cycleOficinasDeck">
 
-                <div className="cycleCard">
+                    <div className="cycleCard">
+                        <p id="cycleCardTitle">Mesa-redonda Ontologias: o que são e como aplicar, com Patricia Ferreira da Silva e Mara Abel (2025)</p>
+                        <img src={palestra6} alt="" />
+                        <p>Acesse o material:</p>
+                        <div className="cardDeckLinks">
+                            <a target="blank" href="https://www.youtube.com/watch?v=-3tjlO0Z4wI&t=4933s">
+                                <img id="linkYtb" src={ytb} alt="" />
+                                <p>Youtube</p>
+                            </a>
+                            <a href={pdf6} download>
+                                <img id="linkPDF" src={pdfPng} alt="" />
+                                <p>PDF</p>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div className="cycleCard">
                         <p id="cycleCardTitle">Palestra com Filipi Miranda Soares: Esquemas de Metadados FAIR, fundamentos e aplicações (2025)</p>
-                        <img src={palestra5}  alt="" />
+                        <img src={palestra5} alt="" />
                         <p>Acesse o material:</p>
                         <div className="cardDeckLinks">
                             <a target="blank" href="https://www.youtube.com/watch?v=8_dkfFHV0JE">
                                 <img id="linkYtb" src={ytb} alt="" />
                                 <p>Youtube</p>
                             </a>
-                            <a href={pdf5}  download>
+                            <a href={pdf5} download>
                                 <img id="linkPDF" src={pdfPng} alt="" />
                                 <p>PDF</p>
                             </a>
@@ -42,14 +63,14 @@ export const Lecture = () => {
 
                     <div className="cycleCard">
                         <p id="cycleCardTitle">Palestra com Leonardo Guerreiro Azevedo: Ferramentas para caracterizar e medir a adequação aos princípios FAIR (2024)</p>
-                        <img src={palestra4}  alt="" />
+                        <img src={palestra4} alt="" />
                         <p>Acesse o material:</p>
                         <div className="cardDeckLinks">
                             <a target="blank" href="https://www.youtube.com/watch?v=dinb7D717-k">
                                 <img id="linkYtb" src={ytb} alt="" />
                                 <p>Youtube</p>
                             </a>
-                            <a href={pdf4}  download>
+                            <a href={pdf4} download>
                                 <img id="linkPDF" src={pdfPng} alt="" />
                                 <p>PDF</p>
                             </a>
