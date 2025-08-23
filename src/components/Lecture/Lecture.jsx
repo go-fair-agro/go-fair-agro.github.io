@@ -4,6 +4,8 @@ import palestra3 from "../../assets/palestra3.png";
 import palestra4 from "../../assets/palestra4.png";
 import palestra5 from "../../assets/palestra5.png";
 import palestra6 from "../../assets/mesa_redonda_ontologias.png";
+import palestra7 from "../../assets/WRNP_2025.png"
+import palestra8 from "../../assets/biblioCLM_palestra9.png"
 
 
 import ytb from "../../assets/ytb.png";
@@ -127,6 +129,37 @@ export const Lecture = () => {
                         </div>
                     </div>
 
+                    <div className="cycleCard">
+                        <p id="cycleCardTitle">WRNP 2025 - Ciência Aberta: Desafios dos Repositórios de Dados de Pesquisa</p>
+                        <img src={palestra7} alt="" />
+                        <p>Acesse o material:</p>
+                        <div className="cardDeckLinks">
+                            <a target="blank" href="https://www.youtube.com/watch?v=PgRzVsXWym8">
+                                <img id="linkYtb" src={ytb} alt="" />
+                                <p>Youtube</p>
+                            </a>
+                            <a href={""}>
+                                <img id="linkPDF" src={pdfPng} alt="" />
+                                <p>Em Breve</p>
+                            </a>
+                        </div>
+                    </div>
+
+                     <div className="cycleCard">
+                        <p id="cycleCardTitle">BiblioCLM | O futuro do Agro é FAIR: dados abertos e a produtividade em Ciências Agrárias</p>
+                        <img src={palestra8} alt="" />
+                        <p>Acesse o material:</p>
+                        <div className="cardDeckLinks">
+                            <a target="blank" href="https://www.youtube.com/live/U6iRuO5nHpE">
+                                <img id="linkYtb" src={ytb} alt="" />
+                                <p>Youtube</p>
+                            </a>
+                            <a href={""}>
+                                <img id="linkPDF" src={pdfPng} alt="" />
+                                <p>Em Breve</p>
+                            </a>
+                        </div>
+                    </div>
 
 
                     <div id="palestraCard">
@@ -135,6 +168,7 @@ export const Lecture = () => {
                         <a target="blank" href="https://drive.google.com/file/d/1Re3OZHgJXrEnhyek0coG1mAYaKlmiUAk/view?usp=sharing" id="linkPalestras">Plataformas para Criação de Planos de Gestão de Dados Usando os Princípios FAIR</a>
                         <a target="blank" href="https://drive.google.com/file/d/1i5FkAPpVD9baQkUThxNB0yCRMs2IjlvN/view?usp=sharing" id="linkPalestras">Planos de Gestão de Dados Acionáveis por Máquina Alinhados aos Princípios FAIR no LMB da Embrapa </a>
                         <a target="blank" href="https://drive.google.com/file/d/1Zitce4YNc0_OUYiYxtEQ16RIyqui0v9W/view?usp=sharing" id="linkPalestras">Gestão de Dados Científicos: Desafios e Estratégias</a>
+                         <a target="blank" href="https://drive.google.com/file/d/1Zitce4YNc0_OUYiYxtEQ16RIyqui0v9W/view?usp=sharing" id="linkPalestras">Gestão de Dados Científicos: Desafios e Estratégias</a>
                     </div>
 
                 </div>
