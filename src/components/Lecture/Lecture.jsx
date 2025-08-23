@@ -131,7 +131,7 @@ export const Lecture = () => {
 
                     <div className="cycleCard">
                         <p id="cycleCardTitle">WRNP 2025 - Ciência Aberta: Desafios dos Repositórios de Dados de Pesquisa</p>
-                        <img src={palestra7} alt="" />
+                        <img src={palestra7} alt="WRNP 2025" />
                         <p>Acesse o material:</p>
                         <div className="cardDeckLinks">
                             <a target="blank" href="https://www.youtube.com/watch?v=PgRzVsXWym8">
@@ -147,7 +147,7 @@ export const Lecture = () => {
 
                      <div className="cycleCard">
                         <p id="cycleCardTitle">BiblioCLM | O futuro do Agro é FAIR: dados abertos e a produtividade em Ciências Agrárias</p>
-                        <img src={palestra8} alt="" />
+                        <img src={palestra8} alt="biblioCLM" />
                         <p>Acesse o material:</p>
                         <div className="cardDeckLinks">
                             <a target="blank" href="https://www.youtube.com/live/U6iRuO5nHpE">
