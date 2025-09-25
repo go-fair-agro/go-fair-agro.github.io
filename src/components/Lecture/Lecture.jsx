@@ -73,8 +73,8 @@ export const Lecture = () => {
                                 <p>Youtube</p>
                             </a>
                             <a href={pdf6} download>
-                                <img id="linkPDF" src={pdfPng} alt="" />
-                                <p>PDF</p>
+                                <img id="linkPDF"  alt="" />
+                                <p>Em Breve</p>
                             </a>
                         </div>
                     </div>
