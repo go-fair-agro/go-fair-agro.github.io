@@ -4,9 +4,9 @@ import palestra3 from "../../assets/palestra3.png";
 import palestra4 from "../../assets/palestra4.png";
 import palestra5 from "../../assets/palestra5.png";
 import palestra6 from "../../assets/mesa_redonda_ontologias.png";
-import palestra7 from "../../assets/WRNP_2025.png"
 import palestra8 from "../../assets/biblioCLM_palestra9.png"
 import palestra9 from "../../assets/UX_sistema_palestra_10.png"
+import palestra10 from "../../assets/RNP_Ciencia_aberta.png"
 
 import ytb from "../../assets/ytb.png";
 import pdfPng from "../../assets/download.png";
@@ -41,6 +41,38 @@ export const Lecture = () => {
                                 <p>Youtube</p>
                             </a>
                             <a href={pdf7} download={"GoFAIR_UX_onto.pdf"}>
+                                <img id="linkPDF" src={pdfPng} alt="" />
+                                <p>PDF</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="cycleCard">
+                        <p id="cycleCardTitle">WRNP 2025 - Ciência Aberta: Desafios dos Repositórios de Dados de Pesquisa (2025)</p>
+                        <img src={palestra10} alt="" />
+                        <p>Acesse o material:</p>
+                        <div className="cardDeckLinks">
+                            <a target="blank" href="https://www.youtube.com/watch?v=PgRzVsXWym8">
+                                <img id="linkYtb" src={ytb} alt="" />
+                                <p>Youtube</p>
+                            </a>
+                            <a href={pdf6} download>
+                                <img id="linkPDF" src={pdfPng} alt="" />
+                                <p>Em Breve</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="cycleCard">
+                        <p id="cycleCardTitle">BiblioCLM | O futuro do Agro é FAIR: dados abertos e a produtividade em Ciências Agrárias (2025)</p>
+                        <img src={palestra8} alt="" />
+                        <p>Acesse o material:</p>
+                        <div className="cardDeckLinks">
+                            <a target="blank" href="https://www.youtube.com/watch?v=-3tjlO0Z4wI&t">
+                                <img id="linkYtb" src={ytb} alt="" />
+                                <p>Youtube</p>
+                            </a>
+                            <a href={pdf6} download>
                                 <img id="linkPDF" src={pdfPng} alt="" />
                                 <p>PDF</p>
                             </a>
@@ -147,26 +179,8 @@ export const Lecture = () => {
                         </div>
                     </div>
 
-                    <div className="cycleCard">
-                        <p id="cycleCardTitle">WRNP 2025 - Ciência Aberta: Desafios dos Repositórios de Dados de Pesquisa</p>
-                        <img src={palestra7} alt="WRNP 2025" />
-                        <p>Acesse o material:</p>
-                        <div className="cardDeckLinks">
-                            <a target="blank" href="https://www.youtube.com/watch?v=PgRzVsXWym8">
-                                <img id="linkYtb" src={ytb} alt="" />
-                                <p>Youtube</p>
-                            </a>
-                            <a href={""}>
-                                <img id="linkPDF" src={pdfPng} alt="" />
-                                <p>Em Breve</p>
-                            </a>
-                        </div>
-                    </div>
-
-
                     <div id="palestraCard">
                         <p style={{ color: "#2D6D2C" }} id="cycleCardTitle">Clique nos links abaixo para conferir mais palestras:</p>
-                        <a target="blank" href="https://www.youtube.com/live/U6iRuO5nHpE" id="linkPalestras">BiblioCLM | O futuro do Agro é FAIR: dados abertos e a produtividade em Ciências Agrárias</a>
                         <a target="blank" href="https://drive.google.com/file/d/1eAwKKLoillH0BnFzQC2y5leC-DbwFa2n/view?usp=sharing" id="linkPalestras">O Processo de Construção da Política de Governança de Dados, Informação e Conhecimento da Embrapa</a>
                         <a target="blank" href="https://drive.google.com/file/d/1Re3OZHgJXrEnhyek0coG1mAYaKlmiUAk/view?usp=sharing" id="linkPalestras">Plataformas para Criação de Planos de Gestão de Dados Usando os Princípios FAIR</a>
                         <a target="blank" href="https://drive.google.com/file/d/1i5FkAPpVD9baQkUThxNB0yCRMs2IjlvN/view?usp=sharing" id="linkPalestras">Planos de Gestão de Dados Acionáveis por Máquina Alinhados aos Princípios FAIR no LMB da Embrapa </a>
