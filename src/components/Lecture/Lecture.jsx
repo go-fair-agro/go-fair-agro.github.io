@@ -6,7 +6,8 @@ import palestra5 from "../../assets/palestra5.png";
 import palestra6 from "../../assets/mesa_redonda_ontologias.png";
 import palestra8 from "../../assets/biblioCLM_palestra9.png"
 import palestra9 from "../../assets/UX_sistema_palestra_10.png"
-import palestra10 from "../../assets/RNP_Ciencia_aberta.png"
+import palestra10 from "../../assets/RNP_Ciencia_aberta.png";
+import palestra11 from "../../assets/Projeto_CAUBrasil.jpeg";
 
 import ytb from "../../assets/ytb.png";
 import pdfPng from "../../assets/download.png";
@@ -17,6 +18,7 @@ import pdf4 from "../../assets/2024-10-17-Tools_to_characterize_FAIR_and_measure
 import pdf5 from "../../assets/esquemas_de_metadados_fair.pdf";
 import pdf6 from "../../assets/mesa_redonda_ontologias.pdf";
 import pdf7 from "../../assets/GoFAIR_UX_onto.pdf";
+import pdf8 from "../../assets/GO_FAIR_Apresentacao_PGD-GEO_29out25.pdf"
 
 // import pdf5 from "../../assets/esquemas_de_metadados_fair.pdf";
 
@@ -30,6 +32,22 @@ export const Lecture = () => {
             <h1>Palestras</h1>
             <div className="cycleOficinasContainer">
                 <div className="cycleOficinasDeck">
+
+                  <div className="cycleCard">
+                        <p id="cycleCardTitle">“Plano de Gestão de Dados Geoespaciais do Projeto CAUBrasil: experiência da Embrapa Agricultura Digital na adaptação do modelo FioDMP da Fiocruz</p>
+                        <img src={palestra11} alt="biblioCLM" />
+                        <p>Acesse o material:</p>
+                        <div className="cardDeckLinks">
+                            <a target="blank" href="https://www.youtube.com/watch?v=zJ6gVNSuzyg">
+                                <img id="linkYtb" src={ytb} alt="" />
+                                <p>Youtube</p>
+                            </a>
+                            <a href={pdf8} download={"GO FAIR_Apresentacao_PGD-GEO.pdf"}>
+                                <img id="linkPDF" src={pdfPng} alt="" />
+                                <p>PDF</p>
+                            </a>
+                        </div>
+                    </div>
 
                      <div className="cycleCard">
                         <p id="cycleCardTitle">UX em Sistemas de Organização do Conhecimento: como melhorar ontologias, tesauros e taxonomias com testes de usabilidade</p>
@@ -73,8 +91,8 @@ export const Lecture = () => {
                                 <p>Youtube</p>
                             </a>
                             <a href={pdf6} download>
-                                <img id="linkPDF"  alt="" />
-                                <p>Em Breve</p>
+                                <img id="linkPDF" src={pdfPng} alt="" />
+                                <p>PDF</p>
                             </a>
                         </div>
                     </div>
